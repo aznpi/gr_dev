@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app  
+  xmlns="http://java.sun.com/xml/ns/javaee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>gr_prototype</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>WEB-INF/template/gr_home.jsp</welcome-file>
+  </welcome-file-list>
+  <jsp-config>
+  	<jsp-property-group>
+  	<url-pattern>*.jsp</url-pattern>
+    <page-encoding>UTF-8</page-encoding>
+    </jsp-property-group>
+  </jsp-config>
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/template-resources/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.jpg</url-pattern>
+    <url-pattern>*.png</url-pattern>
+    <url-pattern>*.js</url-pattern>
+    <url-pattern>*.css</url-pattern>
+    <url-pattern>*.gif</url-pattern>
+</servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>home</servlet-name>
+  	<jsp-file>/WEB-INF/template/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>home</servlet-name>
+  	<url-pattern></url-pattern>
+  </servlet-mapping>
+
+<servlet>
+  	<servlet-name>home2</servlet-name>
+  	<jsp-file>/WEB-INF/template/index2.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>home2</servlet-name>
+  	<url-pattern>/index2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>error404</servlet-name>
+  	<jsp-file>/WEB-INF/template/404error.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>error404</servlet-name>
+  	<url-pattern>/error-404</url-pattern>
+  </servlet-mapping>
+    <servlet>
+  <servlet-name>professional-services</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/professional_services.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>professional-services</servlet-name>
+  	<url-pattern>/services/professional-services</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>product-eDiscovery</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/e_discovery_products.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>product-eDiscovery</servlet-name>
+  	<url-pattern>/services/search/eDiscovery</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>mailBoxManagement</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/mail_box_management.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mailBoxManagement</servlet-name>
+  	<url-pattern>/services/search/mailboxManagement</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>caseManagement</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/case_management.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>caseManagement</servlet-name>
+  	<url-pattern>/services/search/caseManagement</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>supervision</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/supervision.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>supervision</servlet-name>
+  	<url-pattern>/services/search/supervision</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>legalHold</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/legal_hold.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>legalHold</servlet-name>
+  	<url-pattern>/services/search/legalHold</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>emailContinuity</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/email_continuity.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>emailContinuity</servlet-name>
+  	<url-pattern>/services/additional-services/emailContinuity</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>hostedEmail</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/hosted_email.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>hostedEmail</servlet-name>
+  	<url-pattern>/services/additional-services/hostedEmail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>training</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/training.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>training</servlet-name>
+  	<url-pattern>/support/training</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>dataMigration</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/data_migration.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>dataMigration</servlet-name>
+  	<url-pattern>/support/dataMigration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>services-eDiscovery</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/e_discovery_services.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>services-eDiscovery</servlet-name>
+  	<url-pattern>/support/eDiscovery</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>legalGuidance</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/legal_guidance.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>legalGuidance</servlet-name>
+  	<url-pattern>/support/legalGuidance</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>finra</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/finra.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>finra</servlet-name>
+  	<url-pattern>/solutions/finra</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>insurance</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/insurance.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>insurance</servlet-name>
+  	<url-pattern>/solutions/insurance</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>sec</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/sec.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sec</servlet-name>
+  	<url-pattern>/solutions/sec</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>security</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/security.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>security</servlet-name>
+  	<url-pattern>/solutions/security</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>business</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/business.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>business</servlet-name>
+  	<url-pattern>/solutions/business</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>informationGovernance</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/information_governance.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>informationGovernance</servlet-name>
+  	<url-pattern>/solutions/information-governance</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>hipaa</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/hippa.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>hipaa</servlet-name>
+  	<url-pattern>/solutions/hipaa</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>iiroc</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/iiroc.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>iiroc</servlet-name>
+  	<url-pattern>/solutions/iiroc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>fca</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/fca.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>fca</servlet-name>
+  	<url-pattern>/solutions/fca</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>sox</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/sox.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sox</servlet-name>
+  	<url-pattern>/solutions/sox</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>it</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/it.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>it</servlet-name>
+  	<url-pattern>/solutions/it</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>endUsers</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/end_users.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>endUsers</servlet-name>
+  	<url-pattern>/solutions/endUsers</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>legal</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/legal.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>legal</servlet-name>
+  	<url-pattern>/solutions/legal</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>compliance</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/compliance.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>compliance</servlet-name>
+  	<url-pattern>/solutions/compliance</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>brokerDealer</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/broker_dealer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>brokerDealer</servlet-name>
+  	<url-pattern>/solutions/broker-dealer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>investmentAdvisor</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/investment_advisor.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>investmentAdvisor</servlet-name>
+  	<url-pattern>/solutions/investment-advisor</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>hedgeFund</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/hedge_fund.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>hedgeFund</servlet-name>
+  	<url-pattern>/solutions/hedge-fund</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>privateEquity</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/private_equity.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>privateEquity</servlet-name>
+  	<url-pattern>/solutions/private-equity</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>banks</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/banks.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>banks</servlet-name>
+  	<url-pattern>/solutions/banks</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  	<servlet-name>cftc</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/cftc.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cftc</servlet-name>
+  	<url-pattern>/solutions/cftc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>message</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/message.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>message</servlet-name>
+  	<url-pattern>/services/message</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>archive</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/archive.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>archive</servlet-name>
+  	<url-pattern>/services/archive</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>search</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/search.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>search</servlet-name>
+  	<url-pattern>/services/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>analysis</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/analysis.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>analysis</servlet-name>
+  	<url-pattern>/services/analysis</url-pattern>
+  </servlet-mapping>
+  <!-- forms -->
+  
+  <servlet>
+  	<servlet-name>contactSpecialistForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/contact_specialist.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>contactSpecialistForm</servlet-name>
+  	<url-pattern>/forms/contact-specialist</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>creditCardForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/credit_card.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>creditCardForm</servlet-name>
+  	<url-pattern>/forms/payment/registerCard</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>partnerSignUpForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/partner_sign_up.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnerSignUpForm</servlet-name>
+  	<url-pattern>/partners/sign-up</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>requestDemoForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/request_demo.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>requestDemoForm</servlet-name>
+  	<url-pattern>/contact-us/demo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>contactUsForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/contact_us.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>contactUsForm</servlet-name>
+  	<url-pattern>/contact-us/contact</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>requestQuote</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/request_quote.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>requestQuote</servlet-name>
+  	<url-pattern>/contact-us/quote</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>requestQuoteFinra</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/request_quote_finra.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>requestQuoteFinra</servlet-name>
+  	<url-pattern>/contact-us/quote/finra</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>resoldServices</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/resold_services.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resoldServices</servlet-name>
+  	<url-pattern>/partners/forms/resold-services</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>resoldServicesAppRiver</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/app_river.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resoldServicesAppRiver</servlet-name>
+  	<url-pattern>/partners/forms/resold-services/app-river</url-pattern>
+  </servlet-mapping>
+  
+  <!-- company info -->
+   <servlet>
+  	<servlet-name>termsOfUse</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/terms_of_use.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>termsOfUse</servlet-name>
+  	<url-pattern>/company-info/terms-of-use</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>masterTerms</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/policy_master_terms_service.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>masterTerms</servlet-name>
+  	<url-pattern>/company-info/policy/master-terms-use</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>resellerTerms</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/policy_reseller.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resellerTerms</servlet-name>
+  	<url-pattern>/company-info/policy/reseller-terms</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>acceptableUse</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/policy_acceptable_use.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>acceptableUse</servlet-name>
+  	<url-pattern>/company-info/policy/acceptable-use</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>privacy</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/policy_privacy.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>privacy</servlet-name>
+  	<url-pattern>/company-info/policy/privacy</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>standardDefinitions</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/policy_standard_definitions.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>standardDefinitions</servlet-name>
+  	<url-pattern>/company-info/policy/standard-definitions</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>websiteTerms</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/policy_website_terms_use.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>websiteTerms</servlet-name>
+  	<url-pattern>/company-info/policy/website-terms-use</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>gartner</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/gartner.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>gartner</servlet-name>
+  	<url-pattern>/company-info/gartner-magic-quadrant</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>mediaKit</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/media_kit.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mediaKit</servlet-name>
+  	<url-pattern>/company-info/media-kit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>newsEvents</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/news_events.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>newsEvents</servlet-name>
+  	<url-pattern>/company-info/news-events</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>resourcesDoc</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/resources.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resourcesDoc</servlet-name>
+  	<url-pattern>/support/downloads</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>securitySolutions</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/security.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>securitySolutions</servlet-name>
+  	<url-pattern>/resources/security</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>grandPrix</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/grand_prix.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>grandPrix</servlet-name>
+  	<url-pattern>/company-info/grand-prix</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+ 	<servlet-name>aboutUs</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/about_us.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aboutUs</servlet-name>
+  	<url-pattern>/company-info/about-us</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>contactUs</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/contact_us.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>contactUs</servlet-name>
+  	<url-pattern>/company-info/contact-us</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>awards</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/awards.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>awards</servlet-name>
+  	<url-pattern>/company-info/awards</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>leadershipTeam</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/leadership_team.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>leadershipTeam</servlet-name>
+  	<url-pattern>/company-info/leadership-team</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>communityInvolvement</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/company-info/community_involvement.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>communityInvolvement</servlet-name>
+  	<url-pattern>/company-info/community-involvement</url-pattern>
+  </servlet-mapping>
+  
+  <!-- support -->
+  <servlet>
+  	<servlet-name>messageDownload</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/message-download.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>messageDownload</servlet-name>
+  	<url-pattern>/support/message-downloads</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>messageTraining</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/message-training.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>messageTraining</servlet-name>
+  	<url-pattern>/support/message-training</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>helpMessage</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/help_message.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>helpMessage</servlet-name>
+  	<url-pattern>/support/help-message</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>videoTutorials</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/video_tutorials.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>videoTutorials</servlet-name>
+  	<url-pattern>/support/technical-support/video-tutorials</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>videoPodcasts</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/video_podcasts.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>videoPodcasts</servlet-name>
+  	<url-pattern>/support/technical-support/surveillance-success-series</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>supportHome</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/support_home.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>supportHome</servlet-name>
+  	<url-pattern>/support/technical-support/support-home</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>supportFaq</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/faq.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>supportFaq</servlet-name>
+  	<url-pattern>/support/help-center</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>supportPKSinvest</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/support/pksinvest.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>supportPKSinvest</servlet-name>
+  	<url-pattern>/support/PKSinvest-training</url-pattern>
+  </servlet-mapping>
+  
+  <!-- resources -->
+  <servlet>
+  	<servlet-name>knowVendor</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/know_vendor.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>knowVendor</servlet-name>
+  	<url-pattern>/resources/know-vendor</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>resourcesFaq</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/regulatory_faq.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resourcesFaq</servlet-name>
+  	<url-pattern>/resources/faq</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>independentValidation</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/independent_validation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>independentValidation</servlet-name>
+  	<url-pattern>/resources/independent-validation</url-pattern>
+  </servlet-mapping>
+    <servlet>
+  	<servlet-name>resourcesVideo</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/video.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resourcesVideo</servlet-name>
+  	<url-pattern>/resources/video</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>resourcesSurvellianceVideo</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/surveillance_success_series.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resourcesSurvellianceVideo</servlet-name>
+  	<url-pattern>/resources/video/surveillance-success-series</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>aboutUsVideo</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/about_us_videos.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aboutUsVideo</servlet-name>
+  	<url-pattern>/resources/video/about-us-videos</url-pattern>
+  </servlet-mapping>
+  
+  <!-- partners -->
+  <servlet>
+ 	<servlet-name>partners</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/partners/partners.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partners</servlet-name>
+  	<url-pattern>/partners</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>partnersProgram</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/partners/partners_program.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnersProgram</servlet-name>
+  	<url-pattern>/partners/partners-program</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>partnersStrategic</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/partners/partners_strategic.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnersStrategic</servlet-name>
+  	<url-pattern>/partners/strategic-partners</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>partnersReseller</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/partners/partners_reseller.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnersReseller</servlet-name>
+  	<url-pattern>/partners/reseller-partners</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>partnersReferral</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/partners/partners_referral.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnersReferral</servlet-name>
+  	<url-pattern>/partners/referral-partners</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+ 	<servlet-name>partnersTechnology</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/partners/partners_technology.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnersTechnology</servlet-name>
+  	<url-pattern>/partners/technology-partners</url-pattern>
+  </servlet-mapping>
+ 
+  
+  <!-- careers -->
+  
+  <servlet>
+ 	<servlet-name>careersHome</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/careers/careers.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>careersHome</servlet-name>
+  	<url-pattern>/careers</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>careersJobs</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/careers/careers_jobs.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>careersJobs</servlet-name>
+  	<url-pattern>/careers/jobs</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>careersTeams</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/careers/careers_teams.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>careersTeams</servlet-name>
+  	<url-pattern>/careers/teams</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>careersLocations</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/careers/careers_locations.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>careersLocations</servlet-name>
+  	<url-pattern>/careers/locations</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>careersLife</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/careers/careers_life.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>careersLife</servlet-name>
+  	<url-pattern>/careers/life</url-pattern>
+  </servlet-mapping>
+  
+  <!-- technology -->
+  
+  <servlet>
+ 	<servlet-name>dataCenter</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/resources/data_center.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>dataCenter</servlet-name>
+  	<url-pattern>/resources/data-center</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>cloud</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/technology/cloud.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cloud</servlet-name>
+  	<url-pattern>/services/platform/cloud</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>securityTech</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/technology/security.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>securityTech</servlet-name>
+  	<url-pattern>/services/platform/security</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>internalControls</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/technology/internal_controls.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>internalControls</servlet-name>
+  	<url-pattern>/services/platform/internal-controls</url-pattern>
+  </servlet-mapping>
+  
+  <!-- search -->
+  
+  <servlet>
+ 	<servlet-name>searchResults</servlet-name>
+  	<jsp-file>/WEB-INF/template/common/search/search_results.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchResults</servlet-name>
+  	<url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  <!-- landing pages -->
+  <servlet>
+ 	<servlet-name>messageLanding</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/message_landing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>messageLanding</servlet-name>
+  	<url-pattern>/services/landing/message/</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

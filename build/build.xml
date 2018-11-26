@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="">
+
+<!-- Compile .scss and .sass files in the public/sass directory using SASS -->
+<target name="sass.compile">
+  <property name="sass.dir" value="../WebContent/template-resources/sass" />
+  <property name="css.dir" value="../WebContent/template-resources/stylesheets" />
+
+  <apply executable="sass" dest="${css.dir}" verbose="true" force="true" failonerror="true">
+    <arg value="--unix-newline" />
+    <arg value="--compass" />
+    <srcfile />
+    <targetfile />
+    <fileset dir="${sass.dir}" includes="**/*.scss,**/*.sass" excludes="**/_*" />
+    <firstmatchmapper>
+      <globmapper from="*.sass" to="*.css" />
+      <globmapper from="*.scss" to="*.css" />
+    </firstmatchmapper>
+  </apply>
+  <eclipse.refreshLocal resource="xa/public" depth="infinite"/>
+</target>
+
+<!-- Compile .scss files in the public/sass directory using Compass -->
+  <target name="compass.compile">
+    <exec executable="compass" dir="${basedir}">
+      <arg value="compile" />
+    </exec>
+    <eclipse.refreshLocal resource="xa/public" depth="infinite"/>
+  </target>
+	
+<!-- Compress CSS with YUI compressor -->
+	<target name="compressor.properties">
+		
+		<property name="yui.dir" value="compressor/yuicompressor-2.4.7.jar"/>
+		<property name="src.css.dir" value="../WebContent/template-resources/stylesheets"/>
+		
+		<!--output dir-->
+		<property name="css.output.dir" value="../WebContent/template-resources/stylesheets/production"/>
+		
+	</target>
+
+<!--Create build directories-->
+	<target name="-init" depends="compressor.properties"
+	        description="Create build directory structure">
+	        <!--Create the time stamp for the new build-->
+	        <tstamp>
+	            <format property="TODAY" pattern="EEE, d MMM yyyy HH:mm:ss Z"/>
+	        </tstamp>
+	        
+	        <!--Delete previous build files-->
+	        <delete dir="${css.output.dir}"/>
+	        
+	        <!--Recreate the build directories-->
+	        <mkdir dir="${css.output.dir}"/>
+	       
+	        
+	        <!--Log the build timestamps to file-->
+	        <echo file="${css.output.dir}/css/tstamp.txt" append="false">Build Date: ${TODAY}</echo>
+	</target>
+	
+	<!--Concatenate CSS files-->
+	    <target name="css.concatenate" depends="-init" 
+	        description="Concatenates specified CSS files">
+	        <concat destfile="${css.output.dir}/main.css">
+	            <!--first.css and second.css should be first in the concatenated file-->
+	            <filelist 
+	                dir="${src.css.dir}" 
+	                files="main.css"/>
+	        </concat>
+	        <echo>Finished</echo>
+	    </target>
+	
+	<!--Minify CSS files-->
+	    <target name="css.minify" depends="css.concatenate" 
+	        description="Minifies CSS files">
+	        <apply executable="java" parallel="false"  dest="${css.output.dir}">
+	            <fileset 
+	                dir="${css.output.dir}" 
+	                includes="main.css"/>
+	            <arg line="-jar"/>
+	            <arg path="${yui.dir}"/>
+	            <arg line="--line-break 0"/>
+	            <srcfile/>
+	            <arg line="-o"/>
+	            <mapper type="glob" from="*.css" to="*-min.css"/>
+	            <targetfile/>
+	        </apply>
+	    	
+	    	<!--Delete previous build files-->
+	    	<delete file="${src.css.dir}/main.css"/>
+	    	<delete file="${css.output.dir}/main.css"/>
+	    	
+	        <echo>Finished</echo>
+	    </target>
+	
+	<!--Build-->
+	    <target name="prod" 
+	        description="Builds project files for production use"
+	        depends="
+	    		compressor.properties, 
+	            -init,
+		    	css.concatenate,
+	            css.minify">
+	    </target>
+</project>
