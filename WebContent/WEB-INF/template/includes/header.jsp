@@ -30,13 +30,7 @@
 							    </div>
 							    <i id="firstIcon" class="fa fa-lock"></i>
 							</div>
-							<div class="link" rel="https://mail.globalrelay.com/">
-							   	<div>
-							   		<div class="title">Email Filter / Continuity Login</div>
-							   		<div class="description">Virus Protection, Spam Quarantine or Continuity Access</div>
-							   	</div>
-							   	<i id="secondIcon" class="fa fa-shield"></i>
-							</div>
+							
 							<div class="link" rel="https://controlcenter.globalrelay.com/PasswordMod">
 							  	<div>
 							  		<div class="title">Password Modification</div>
@@ -75,7 +69,7 @@
 								<ul>
 									<li class="dropdown-header"><a href="${baseUrl}/services/message"><i class="fa fa-arrow-circle-right"></i>Message</a><div class="right-align product-icon" id="message-icon"></div></li>
 									<li><a href="${baseUrl}/services/message?page=collaboration#collaboration-tab""><i class="fa fa-arrow-circle-right"></i>Collaboration</a></li>
-									<li><a href="${baseUrl}/services/message?page=directory#directory-tab""><i class="fa fa-arrow-circle-right"></i>Directory</a></li>
+									<li><a href="${baseUrl}/services/landing/message/text"><i class="fa fa-arrow-circle-right"></i>Text for Global Relay Message</a></li>
 									<li class="dropdown-header"><a href="${baseUrl}/services/archive"><i class="fa fa-arrow-circle-right"></i>Archive</a><div class="right-align product-icon" id="archive-icon"></div></li>
 									<li><a href="${baseUrl}/services/archive?page=real-time-data#data-feeds-tab"><i class="fa fa-arrow-circle-right"></i>Data Types</a></li>
 									<li><a href="${baseUrl}/services/archive?page=legacy-data#legacy-data-tab""><i class="fa fa-arrow-circle-right"></i>Legacy Data</a></li>

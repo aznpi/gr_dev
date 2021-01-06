@@ -203,7 +203,7 @@ $(document).ready(function(){
     var url = window.location.hash.replace('-tab','');
 	
 	if (url.match('#')) {
-	    $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show') ;
+	    $('.nav-tabs a[href="#'+url.split('#')[1]+'"]').tab('show') ;
 	} 
 	
 	
@@ -668,7 +668,7 @@ $(document).ready(function(){
 				setCookieWarning(false);
 		})
 		
-		$(window).unload(function () {
+		$(window).on("unload",function () {
 		    // Remove the cookie
 			eraseCookie(sCookieName);
 		});

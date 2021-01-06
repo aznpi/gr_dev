@@ -4,7 +4,7 @@
 
 
 <!-- global relay stylesheets -->
-<link href="${baseUrl}/template-resources/stylesheets/production/main.css" rel="stylesheet">
+<link href="${baseUrl}/template-resources/stylesheets/production/main.css?123" rel="stylesheet">
 <!-- <link href="${baseUrl}/template-resources/sass/main.css" rel="stylesheet"> --->
 
 <link type="image/vnd.microsoft.icon" href="${baseUrl}/template-resources/images/internal/icons/favicon.ico" rel="shortcut icon">
@@ -24,8 +24,14 @@
 	<link href="${baseUrl}/template-resources/stylesheets/external/magnify/magnify.css" rel="stylesheet">
 </c:if>
 
+
+<link href="${baseUrl}/template-resources/stylesheets/external/slick/slick-theme.css" rel="stylesheet">
+
 <!-- external javascripts -->
-<script src="${baseUrl}/template-resources/javascripts/external/jquery/jquery.js"></script>
+<script src="${baseUrl}/template-resources/javascripts/external/jquery/jquery.js?022620"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
 <script src="${baseUrl}/template-resources/javascripts/external/jquery/jquery.cookie.js"></script>
 <script src="${baseUrl}/template-resources/javascripts/external/jquery/jquery.validate.min.js"></script>
 <script src="${baseUrl}/template-resources/javascripts/external/jquery/additional-methods.min.js"></script>

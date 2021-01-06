@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Global-Relay-Archive-for-Slack-Landing-Page" transform="translate(-926.000000, -926.000000)">
+            <g id="Group-6" transform="translate(926.000000, 926.000000)">
+                <path d="M18,22.0588235 L3,22.0588235 L3,2.94117647 L13.5,2.94117647 L13.5,6.61764706 C13.5,7.02352941 13.836,7.35294118 14.25,7.35294118 L18,7.35294118 L18,22.0588235 Z M20.346,4.63088235 L16.2795,0.644117647 C15.858,0.232352941 15.2865,0 14.6895,0 L2.25,0 C1.008,0 0,0.988235294 0,2.20588235 L0,22.7941176 C0,24.0117647 1.008,25 2.25,25 L18.75,25 C19.992,25 21,24.0117647 21,22.7941176 L21,6.18676471 C21,5.60588235 20.7645,5.04558824 20.346,4.63088235 L20.346,4.63088235 Z" id="Fill-1" fill="#B8BFC7"></path>
+                <polygon id="Fill-3" fill="#DF1F26" points="6 13.2352941 15 13.2352941 15 10.2941176 6 10.2941176"></polygon>
+                <polygon id="Fill-5" fill="#DF1F26" points="6 19.1176471 15 19.1176471 15 16.1764706 6 16.1764706"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

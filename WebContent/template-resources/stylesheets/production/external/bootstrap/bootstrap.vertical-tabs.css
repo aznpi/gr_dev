@@ -1,0 +1,125 @@
+/*!
+ * bootstrap-vertical-tabs - v1.2.1
+ * https://dbtek.github.io/bootstrap-vertical-tabs
+ * 2014-11-07
+ * Copyright (c) 2014
+ * License: MIT
+ */
+/* line 9, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-left, .tabs-right {
+  border-bottom: none;
+  margin-bottom: 20px;
+  padding-top: 2px;
+}
+
+/* line 15, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-right {
+  border-left: 1px solid #ddd;
+}
+
+/* line 19, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-left > li, .tabs-right > li {
+  float: none;
+  margin-bottom: -1px !important;
+}
+
+/* line 24, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-left > li {
+  margin-right: -1px;
+}
+
+/* line 28, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-right > li {
+  margin-left: -1px;
+}
+
+/* line 32, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-left > li.active > a {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+/* line 35, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-left > li.active > a:hover, .tabs-left > li.active > a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+
+/* line 41, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-right > li.active > a {
+  border-bottom: 1px solid #ddd;
+  border-left-color: transparent;
+}
+/* line 44, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-right > li.active > a:hover, .tabs-right > li.active > a:focus {
+  border-bottom: 1px solid #ddd;
+  border-left-color: transparent;
+}
+
+/* line 50, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-left > li > a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display: block;
+}
+
+/* line 56, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.tabs-right > li > a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0;
+}
+
+/* line 61, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways {
+  margin-top: 50px;
+  border: none;
+  position: relative;
+}
+/* line 65, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways > li {
+  height: 20px;
+  width: 120px;
+  margin-bottom: 100px;
+}
+/* line 69, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways > li > a {
+  border-bottom: 1px solid #ddd;
+  border-right-color: transparent;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+}
+/* line 75, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways > li.active > a {
+  border-bottom-color: transparent;
+  border-right-color: #ddd;
+  border-left-color: #ddd;
+}
+/* line 79, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways > li.active > a:hover, .sideways > li.active > a:focus {
+  border-bottom-color: transparent;
+  border-right-color: #ddd;
+  border-left-color: #ddd;
+}
+/* line 86, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways.tabs-left {
+  left: -50px;
+}
+/* line 89, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways.tabs-right {
+  right: -50px;
+}
+/* line 91, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways.tabs-right > li {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 99, ../../../../sass/external/bootstrap/bootstrap.vertical-tabs.scss */
+.sideways.tabs-left > li {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}

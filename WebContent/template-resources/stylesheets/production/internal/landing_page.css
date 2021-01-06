@@ -1,0 +1,716 @@
+/*
+
+GR LANDING MAIN CSS Stylesheet
+Author: Tat Chow
+Date: May 28, 2020
+
+*/
+/*
+    Table of Contents
+
+    1.0 - Common Selectors
+    2.0 - Header Menu/Top Navigation
+    3.0 - Buttons
+    4.0 - Main Content
+    5.0 - Footer
+   
+*/
+/* 1.0 - Common Selectors */
+/*
+    Table of Contents
+
+    1.0 - Common Selectors
+    2.0 - Header Menu/Top Navigation
+    3.0 - Buttons
+    	3.1 - Tabs
+    4.0 - Main Content
+    5.0 - Footer
+    6.0 - Product Page
+    7.0 - Social Widget
+    8.0 - Forms
+    9.0 - Support Pages
+    10.0 - Our Story Pages
+    11.0 - Resources Page
+    12.0 - Awards Page
+    13.0 - Partners Page
+    14.0 - Leadership Page
+    15.0 - Careers Page
+    16.0 - Dropdown Container
+    17.0 - News & Events Page
+    18.0 - GGP Page
+    19.0 - Community Involvement
+    20.0 - About Us Page
+    21.0 - Data Center Page
+    22.0 - Cloud Ecosystem Page
+    23.0 - Security
+    24.0 - Search Results Page
+    25.0 - Contact Us page
+    26.0 - Regulatory FAQ page
+    27.0 - Policies
+    28.0 - Landing Pages
+    29.0 - Main Banner - Slick Slide
+*/
+/* Global Settings*/
+@media (min-width: 320px) {
+  /* line 62, ../../../sass/internal/landing_page.scss */
+  .container, .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 66, ../../../sass/internal/landing_page.scss */
+  .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 72, ../../../sass/internal/landing_page.scss */
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1170px;
+  }
+}
+/*MIXIN*/
+/*SASS variables*/
+/* 1.0 - Common Selectors */
+/*Helvetica, sans-serif;*/
+/* line 106, ../../../sass/internal/landing_page.scss */
+body {
+  background-color: #FFF;
+  color: #050505;
+  font-family: open-sans, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-shadow: rgba(0, 0, 0, 0.004) 0 0 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 115, ../../../sass/internal/landing_page.scss */
+a {
+  color: #005D87;
+  font-weight: 600;
+}
+
+/* line 120, ../../../sass/internal/landing_page.scss */
+h1, h2 {
+  font-weight: 200;
+  color: #DA2426;
+}
+
+/* line 125, ../../../sass/internal/landing_page.scss */
+h1, h2, h3 {
+  margin-bottom: 30px;
+}
+
+/* line 129, ../../../sass/internal/landing_page.scss */
+h3 {
+  font-weight: 300;
+}
+
+/* line 132, ../../../sass/internal/landing_page.scss */
+h4 {
+  font-weight: 200;
+}
+/* line 135, ../../../sass/internal/landing_page.scss */
+h4 a {
+  color: #000000;
+}
+
+/* line 140, ../../../sass/internal/landing_page.scss */
+h5 {
+  font-size: 18px;
+}
+
+/* line 149, ../../../sass/internal/landing_page.scss */
+iframe, object, embed {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 153, ../../../sass/internal/landing_page.scss */
+h4.blue {
+  color: #005D87 !important;
+  margin-bottom: 10px !important;
+}
+
+/* line 159, ../../../sass/internal/landing_page.scss */
+h3.sub-header {
+  clear: both;
+  color: #050505;
+  margin-top: 20px !important;
+}
+
+/* line 164, ../../../sass/internal/landing_page.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 167, ../../../sass/internal/landing_page.scss */
+.float-none {
+  float: none !important;
+}
+
+/* line 170, ../../../sass/internal/landing_page.scss */
+.left {
+  float: left !important;
+}
+
+/* line 173, ../../../sass/internal/landing_page.scss */
+.right {
+  float: right !important;
+}
+
+/* line 176, ../../../sass/internal/landing_page.scss */
+.display-none {
+  display: none;
+}
+
+/* line 179, ../../../sass/internal/landing_page.scss */
+.display-block {
+  display: block;
+}
+
+/* line 182, ../../../sass/internal/landing_page.scss */
+.display-inline {
+  display: inline-block;
+}
+
+/* line 185, ../../../sass/internal/landing_page.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 188, ../../../sass/internal/landing_page.scss */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 191, ../../../sass/internal/landing_page.scss */
+.no-pad {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 195, ../../../sass/internal/landing_page.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 198, ../../../sass/internal/landing_page.scss */
+.white {
+  color: #FFFFFF;
+}
+
+/* line 201, ../../../sass/internal/landing_page.scss */
+.red-font {
+  color: #DA2426;
+}
+
+/* line 204, ../../../sass/internal/landing_page.scss */
+.bg-light-grey {
+  background-color: #EDEDED !important;
+}
+
+/* line 207, ../../../sass/internal/landing_page.scss */
+.icon-red-med {
+  color: #DA2426;
+  font-size: 80px;
+}
+
+/* line 211, ../../../sass/internal/landing_page.scss */
+.bold-red {
+  color: #DA2426;
+  font-size: 18px;
+}
+
+/* line 215, ../../../sass/internal/landing_page.scss */
+.border-red {
+  border-color: #DA2426 !important;
+}
+
+/* line 218, ../../../sass/internal/landing_page.scss */
+.center {
+  text-align: center;
+}
+
+/* line 221, ../../../sass/internal/landing_page.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 225, ../../../sass/internal/landing_page.scss */
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* line 230, ../../../sass/internal/landing_page.scss */
+.btn {
+  white-space: normal;
+}
+
+/* line 233, ../../../sass/internal/landing_page.scss */
+#footer-container {
+  background-color: #333333;
+  color: #A2A2A2;
+  height: 654px;
+  left: 0;
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  /* line 244, ../../../sass/internal/landing_page.scss */
+  section {
+    padding: 50px 0 0;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 244, ../../../sass/internal/landing_page.scss */
+  section {
+    padding: 50px 100px 0;
+    position: relative;
+  }
+}
+/* line 253, ../../../sass/internal/landing_page.scss */
+section .divider {
+  bottom: 0;
+  border-bottom: 2px solid #DA2426;
+  margin-top: 50px;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  /* line 260, ../../../sass/internal/landing_page.scss */
+  .section-hero {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 326px;
+    padding: 0 -50px;
+    position: relative;
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 260, ../../../sass/internal/landing_page.scss */
+  .section-hero {
+    height: 650px;
+    margin-bottom: 0;
+  }
+}
+/* line 277, ../../../sass/internal/landing_page.scss */
+.section-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 286, ../../../sass/internal/landing_page.scss */
+.section-hero .hero-content {
+  position: absolute;
+  color: #fff;
+}
+@media (min-width: 320px) {
+  /* line 286, ../../../sass/internal/landing_page.scss */
+  .section-hero .hero-content {
+    top: 350px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 286, ../../../sass/internal/landing_page.scss */
+  .section-hero .hero-content {
+    top: 179px;
+  }
+}
+/* line 296, ../../../sass/internal/landing_page.scss */
+.section-hero .hero-content h1 {
+  color: #2a2a2a;
+  font-weight: 600;
+}
+
+@media (min-width: 320px) {
+  /* line 304, ../../../sass/internal/landing_page.scss */
+  .section-header-message .center {
+    text-align: left;
+  }
+}
+@media (min-width: 480px) {
+  /* line 304, ../../../sass/internal/landing_page.scss */
+  .section-header-message .center {
+    text-align: center;
+  }
+}
+/* line 313, ../../../sass/internal/landing_page.scss */
+.section-header-message .divider {
+  border: 5px solid #DA2426;
+}
+
+/* line 320, ../../../sass/internal/landing_page.scss */
+.section-category-drop .divider {
+  margin-top: 10px;
+}
+/* line 326, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .icon img {
+  height: 90px;
+  width: 90px;
+}
+/* line 332, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion {
+  width: 100%;
+}
+/* line 336, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card {
+  border: 0;
+}
+/* line 341, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-body .content-img img {
+  height: 146px;
+  width: 125px;
+}
+/* line 346, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-body .content-title {
+  margin: 30px 0;
+}
+@media (min-width: 320px) {
+  /* line 349, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-body .content-divider {
+    display: none;
+  }
+}
+@media (min-width: 480px) {
+  /* line 349, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-body .content-divider {
+    display: block;
+    border: 2px solid #B8B9B7;
+    width: 100%;
+  }
+}
+/* line 361, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-header {
+  background-color: #FFF;
+  border-bottom: 0;
+  padding: 5px 1.25rem 0px;
+}
+/* line 366, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-header .btn-link {
+  font-weight: 600;
+  color: #050505;
+  text-decoration: none;
+  width: 100%;
+}
+@media (min-width: 320px) {
+  /* line 366, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-header .btn-link {
+    text-align: left;
+  }
+}
+@media (min-width: 480px) {
+  /* line 366, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-header .btn-link {
+    text-align: center;
+    position: relative;
+  }
+}
+@media (min-width: 320px) {
+  /* line 381, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-header .btn-link .display-inline {
+    width: 70%;
+  }
+}
+@media (min-width: 480px) {
+  /* line 381, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-header .btn-link .display-inline {
+    width: 100%;
+  }
+}
+/* line 390, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-header .btn-link::hover {
+  color: #050505;
+  text-decoration: none;
+}
+/* line 396, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-header .btn-link .arrow-down {
+  font-size: 25px;
+  color: #DA2426;
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+}
+@media (min-width: 320px) {
+  /* line 396, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-header .btn-link .arrow-down {
+    width: 30%;
+  }
+}
+@media (min-width: 480px) {
+  /* line 396, ../../../sass/internal/landing_page.scss */
+  .section-category-drop .section-content .accordion .card .card-header .btn-link .arrow-down {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+  }
+}
+/* line 414, ../../../sass/internal/landing_page.scss */
+.section-category-drop .section-content .accordion .card .card-header .btn-link .arrow-down i {
+  transition: .1s;
+}
+
+/* line 436, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+/* line 445, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion#faq-dropdown .faq-0 {
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  /* line 445, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion#faq-dropdown .faq-0 {
+    padding: 0 0 0 150px;
+  }
+}
+/* line 454, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion#faq-dropdown .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 459, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card {
+  padding-right: 0;
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-0 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-1 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-2 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-3 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-4 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-5 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-6 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-7 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-8 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-9 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 468, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header#faq-10 .btn-link[aria-expanded='true'] .arrow-down i {
+  transform: rotate(180deg);
+}
+/* line 478, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header button {
+  padding-right: 0;
+  position: relative;
+}
+/* line 482, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header button img {
+  height: 90px;
+  width: 90px;
+}
+@media (min-width: 320px) {
+  /* line 482, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion .card .card-header button img {
+    display: block;
+  }
+}
+@media (min-width: 480px) {
+  /* line 482, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion .card .card-header button img {
+    display: inline;
+  }
+}
+@media (min-width: 480px) {
+  /* line 482, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion .card .card-header button img {
+    float: left;
+    margin-right: 30px;
+  }
+}
+/* line 497, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion .card .card-header button h3 {
+  margin-top: 30px;
+}
+@media (min-width: 320px) {
+  /* line 497, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion .card .card-header button h3 {
+    display: inline-block;
+    float: none;
+    font-size: 20px;
+    width: 70%;
+  }
+}
+@media (min-width: 480px) {
+  /* line 497, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion .card .card-header button h3 {
+    display: inline;
+    float: left;
+    font-size: 30px;
+    width: 70%;
+    text-align: left;
+  }
+}
+@media (min-width: 480px) {
+  /* line 514, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion .card .card-header button .arrow-down {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 528, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions.accordion, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive.accordion, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller.accordion {
+    padding-left: 130px;
+  }
+}
+/* line 534, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion #faqQuestions .card .card-header, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .card-header, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .card-header {
+  padding-left: 0;
+  padding-top: 30px;
+  padding-bottom: 7px;
+  padding-right: 0;
+}
+/* line 540, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion #faqQuestions .card .card-header .btn-link, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .card-header .btn-link, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .card-header .btn-link {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+/* line 544, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion #faqQuestions .card .card-header .btn-link span, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .card-header .btn-link span, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .card-header .btn-link span {
+  display: inline-block;
+}
+/* line 547, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion #faqQuestions .card .card-header .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .card-header .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .card-header .btn-link .arrow-down {
+  margin-top: 0;
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-0 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-0 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-0 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-1 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-1 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-1 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-2 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-2 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-2 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-3 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-3 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-3 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-4 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-4 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-4 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-5 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-5 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-5 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-6 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-6 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-6 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-7 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-7 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-7 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-8 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-8 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-8 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-9 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-9 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-9 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  /* line 558, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card #faq-10 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card #faq-10 .btn-link .arrow-down, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card #faq-10 .btn-link .arrow-down {
+    bottom: 0;
+  }
+}
+/* line 566, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion #faqQuestions .card .card-body, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .card-body, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 566, ../../../sass/internal/landing_page.scss */
+  #section-faq.section-category-drop .section-content .accordion #faqQuestions .card .card-body, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .card-body, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .card-body {
+    padding-right: 80px;
+  }
+}
+/* line 573, ../../../sass/internal/landing_page.scss */
+#section-faq.section-category-drop .section-content .accordion #faqQuestions .card .divider, #section-faq.section-category-drop .section-content .accordion #faqQuestionsArchive .card .divider, #section-faq.section-category-drop .section-content .accordion #faqQuestionsReseller .card .divider {
+  border-bottom: 2px solid #CCC;
+  width: 100%;
+}
+
+/* line 586, ../../../sass/internal/landing_page.scss */
+.section-footer-msg {
+  padding-bottom: 50px;
+}
+@media (min-width: 320px) {
+  /* line 590, ../../../sass/internal/landing_page.scss */
+  .section-footer-msg .center {
+    text-align: left;
+  }
+}
+@media (min-width: 480px) {
+  /* line 590, ../../../sass/internal/landing_page.scss */
+  .section-footer-msg .center {
+    text-align: center;
+  }
+}

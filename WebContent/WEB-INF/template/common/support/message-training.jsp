@@ -51,20 +51,21 @@
 					
 					
 					<div class="main-content row">
-					
+					<!--  
 						<div class="col-md-3 left-container">						
           	
-					      <!-- tabs left -->
+					     
 					      <div id="faq-menu-container" class="tabbable tabs-left">
 						        <ul class="nav nav-tabs">
 							        <li class="active"><a href="#admin-users" data-toggle="tab">Training for Administrators and Channel Users</a></li> 
 							    	
 						        </ul>
 					      </div>
-					      <!-- /tabs -->
+					     
       
 						</div>
-						<div class="col-md-9 faq-container right">
+						-->
+						<div class="col-md-12 faq-container">
 							<div class="tab-content">
 									<!-- tab -->
 						        	<div class="tab-pane in fade active" id="admin-users">

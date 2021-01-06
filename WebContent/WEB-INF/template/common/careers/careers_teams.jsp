@@ -88,7 +88,7 @@
 					
     <div class="col-md-4">
         <div class="info-boxes">
-            <h3>Administration <i class="fa fa-pencil right"></i></h3>
+            <h3>Administration <i class="fa fa-pencil-alt right"></i></h3>
             <div class="description">
                 <p>Global Relay’s Administration team provides 24/7/365 support to our customers and clients worldwide. The Administration team is responsible for front-end client support by answering inquiries and directing them to appropriate parties. The team provides assistance and support for Global Relay team members in daily operations, manages office supplies and equipment, and maintains the cleanliness and appearance of the office.</p>
             </div>
@@ -101,7 +101,7 @@
 						
     <div class="col-md-4">
         <div class="info-boxes">
-            <h3>Data Services <i class="fa fa-file-text-o right"></i></h3>
+            <h3>Data Services <i class="fa fa-file-alt right"></i></h3>
             <div class="description">
                 <p>Global Relay's Data Services team provides eDiscovery and Data Migration support for our global customer base. The team is a specialized Professional Services department that delivers product and industry expertise on audit, legal eDiscovery, and data management related inquiries. The Data Services team executes best practices and due diligence in data management and information governance to mitigate risk for our customers and help them satisfy their business needs.</p>
             </div>
@@ -131,7 +131,7 @@
 						
     <div class="col-md-4">
         <div class="info-boxes">
-            <h3>Information Security <i class="fa fa-shield right"></i></h3>
+            <h3>Information Security <i class="fa fa-shield-alt right"></i></h3>
             <div class="description">
                 <p>Global Relay’s services are specifically designed to be entrusted with the most sensitive messaging data of the world’s largest financial firms, which have some of the most demanding security requirements of any industry. The Information Security (InfoSec) team is tasked with ensuring that Global Relay meets these requirements. </p>
             </div>
@@ -158,7 +158,7 @@
 					
     <div class="col-md-4">
         <div class="info-boxes">
-            <h3>Operations <i class="fa fa-gears right"></i></h3>
+            <h3>Operations <i class="fa fa-cogs right"></i></h3>
             <div class="description">
                 <p>The Operations team is responsible for maintaining all of Global Relay’s IT systems and ensuring the highest level of availability to Global Relay services. In addition, they work closely with Development teams on Global Relay software deployments, patches, and maintenance releases. The team consists of Systems Administrators who specialize in network, infrastructure, applications, and data center services.</p>
             </div>

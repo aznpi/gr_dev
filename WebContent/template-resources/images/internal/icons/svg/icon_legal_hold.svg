@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>legal_hold</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="512" height="512"></rect>
+    </defs>
+    <g id="legal_hold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-15" mask="url(#mask-2)" stroke-linecap="round" stroke-linejoin="round">
+                <g transform="translate(56.000000, 49.000000)">
+                    <polyline id="Stroke-1" stroke="#1D1D1B" stroke-width="14.173" points="313.0962 384.963 313.0962 356.616 213.8832 356.616"></polyline>
+                    <polyline id="Stroke-2" stroke="#1D1D1B" stroke-width="14.173" points="185.5376 356.6164 157.1906 356.6164 157.1906 384.9634"></polyline>
+                    <polygon id="Stroke-3" stroke="#1D1D1B" stroke-width="14.173" points="171.3643 115.6715 284.7493 229.0575 355.6153 158.1915 242.2303 44.8055"></polygon>
+                    <g id="Group-14" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 0.396000)">
+                        <path d="M273.5122,239.8991 C267.9992,245.4121 267.9992,254.4311 273.5122,259.9431 L281.8152,268.2461 C287.3262,273.7571 296.3462,273.7571 301.8592,268.2461 L395.2002,174.9041 C400.7122,169.3921 400.7122,160.3721 395.2002,154.8601 L386.8982,146.5571 C381.3852,141.0451 372.3662,141.0451 366.8542,146.5571 L273.5122,239.8991 Z" id="Stroke-4" stroke="#1D1D1B" stroke-width="14.173"></path>
+                        <path d="M131.7798,98.1671 C126.2678,103.6791 126.2678,112.6991 131.7798,118.2111 L140.0818,126.5131 C145.5938,132.0251 154.6138,132.0251 160.1258,126.5131 L253.4678,33.1711 C258.9798,27.6591 258.9798,18.6401 253.4678,13.1271 L245.1658,4.8251 C239.6538,-0.6869 230.6338,-0.6869 225.1218,4.8251 L131.7798,98.1671 Z" id="Stroke-6" stroke="#1D1D1B" stroke-width="14.173"></path>
+                        <polyline id="Stroke-8" stroke="#1D1D1B" stroke-width="14.173" points="213.8833 214.4879 242.2303 186.1419 213.8833 157.7949 100.4983 271.1809 128.8443 299.5279 192.6233 235.7479"></polyline>
+                        <path d="M4.2207,353.2848 C-1.2913,358.7978 -1.2913,367.8168 4.2207,373.3288 L26.6967,395.8048 C32.2087,401.3168 41.2277,401.3168 46.7407,395.8048 L125.9087,316.6368 C131.4207,311.1238 131.4207,302.1038 125.9087,296.5928 L103.4327,274.1168 C97.9217,268.6038 88.9017,268.6038 83.3887,274.1168 L4.2207,353.2848 Z" id="Stroke-10" stroke="#1D1D1B" stroke-width="14.173"></path>
+                        <path d="M341.4429,412.9137 L341.4429,391.6537 C341.4429,387.7397 338.2699,384.5667 334.3559,384.5667 L135.9309,384.5667 C132.0169,384.5667 128.8439,387.7397 128.8439,391.6537 L128.8439,412.9137 L341.4429,412.9137 Z" id="Stroke-12" stroke="#1D1D1B" stroke-width="14.173"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

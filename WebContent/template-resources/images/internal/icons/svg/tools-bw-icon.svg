@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ediscovery</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="50"></rect>
+    </defs>
+    <g id="ediscovery" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-23" mask="url(#mask-2)" stroke="#1D1D1B" stroke-width="1.38408203">
+                <g transform="translate(3.515625, 3.515625)">
+                    <path d="M34.6110547,17.3097852 C34.6110547,26.8650586 26.8650586,34.6110547 17.3097852,34.6110547 C7.75451172,34.6110547 0.00841796875,26.8650586 0.00841796875,17.3097852 C0.00841796875,7.75451172 7.75451172,0.00841796875 17.3097852,0.00841796875 C26.8650586,0.00841796875 34.6110547,7.75451172 34.6110547,17.3097852 Z" id="Stroke-1"></path>
+                    <path d="M31.8428223,17.3097852 C31.8428223,25.3361523 25.3361816,31.842793 17.3098145,31.842793 C9.28334961,31.842793 2.77661133,25.3361523 2.77661133,17.3097852 C2.77661133,9.28341797 9.28334961,2.77667969 17.3098145,2.77667969 C25.3361816,2.77667969 31.8428223,9.28341797 31.8428223,17.3097852 Z" id="Stroke-3"></path>
+                    <line x1="34.0377051" y1="29.8854102" x2="31.4431738" y2="27.2907813" id="Stroke-5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <path d="M29.2668555,33.4191504 L37.9052344,42.0575293 C39.0518164,43.2041113 40.9108984,43.2041113 42.0575781,42.0575293 C43.2041602,40.9109473 43.2041602,39.0518652 42.0575781,37.9052832 L35.9950781,31.8427832 L33.9190039,33.9189551" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="11.0812891" y1="11.0824609" x2="23.5382227" y2="11.0824609" id="Stroke-9" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="8.31310547" y1="15.2347559" x2="19.385957" y2="15.2347559" id="Stroke-11" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="22.1541602" y1="15.2347559" x2="26.3065039" y2="15.2347559" id="Stroke-13" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="8.31310547" y1="19.3870996" x2="13.8495313" y2="19.3870996" id="Stroke-15" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="16.6177051" y1="19.3870996" x2="26.3064746" y2="19.3870996" id="Stroke-17" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="11.0808594" y1="23.5394043" x2="16.6176758" y2="23.5394043" id="Stroke-19" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="19.3859277" y1="23.5394043" x2="23.5382715" y2="23.5394043" id="Stroke-21" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

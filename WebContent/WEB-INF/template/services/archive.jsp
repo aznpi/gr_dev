@@ -56,7 +56,7 @@
 							<div id="overview-container" class="row-container">
 								<h4>Stay compliant, organized and in control</h4>
 								<div class="description">  		
-									<p>With unstructured data like email, IM, and text messaging now accounting for 80% or more of business records, it has never been more important to manage and preserve your organization’s electronic communications. Proper management of these records is crucial to protecting your organization’s intellectual capital and complying with regulatory requirements.</p>
+									<p>With unstructured data like email, IM, and text messaging now accounting for 80% or more of business records, it has never been more important to manage and preserve your organization’s electronic communications. Proper management of these records is crucial to protecting your organization’s intellectual capital and complying with regulatory requirements.</p>
 									<p>Global Relay Archive organizes your information, protects your intellectual assets, ensures regulatory compliance, and proactively prepares you for audits and litigation. Designed to meet the strict recordkeeping requirements of the most heavily regulated and litigious industries, it automatically captures and preserves your corporate communications in a massively scalable and secure cloud repository, creating a centralized record of who said what, when.</p>
 
 								</div>
@@ -184,111 +184,107 @@
 									  					</div>
 									  				</div>
 									  				<div class="datafeed-container" id="datafeed-publicim">
-									  					<a name="type-im"></a>
-									  					<h3>Instant Messaging</h3>
-									  					<hr>
-									  					<div class="datafeed-group">
-									  					
-									  						<div class="p-left" data-toggle="modal" data-target="#aol-modal">
-									  							<div>
-										  							<div id="datafeed-aol">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>AOL Instant Messenger</h4></div>
-										  						</div>
-									  						</div>
-									  						<div data-toggle="modal" data-target="#jabber-modal">
-									  							<div>
-										  							<div id="datafeed-cisco-jabber">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Cisco Jabber (CUPS)</h4></div>
-										  						</div>
-									  						</div>
-									  						<div data-toggle="modal" data-target="#cisco-modal">
-									  							<div>
-										  							<div id="datafeed-cisco">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Cisco WebEx</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom p-left m-top" data-toggle="modal" data-target="#gr-messenger-modal">
-									  							<div>
-										  							<div id="datafeed-gr-messenger">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Global Relay Messenger</h4></div>
-										  						</div>
-									  						</div>
-									  					
-									  															  						
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#ibm-modal">
-									  							<div>
-										  							<div id="datafeed-ibm-sametime">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>IBM Sametime</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#lua-modal">
-									  							<div>
-										  							<div id="datafeed-lua">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Lua</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom p-left m-top" data-toggle="modal" data-target="#lync-modal">
-									  							<div>
-										  							<div id="datafeed-lync">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Lync</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#skype-business-modal">
-									  							<div>
-										  							<div id="datafeed-skype">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Skype for Business</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#skype-business-online-modal">
-									  							<div>
-										  							<div id="datafeed-skype">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Skype for Business Online</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom p-left m-top" data-toggle="modal" data-target="#symphony-modal">
-									  							<div>
-										  							<div id="datafeed-symphony">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Symphony</h4></div>
-										  						</div>
-									  						</div>
-									  						
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#smtp-modal">
-									  							<div>
-										  							<div id="datafeed-smtp">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Custom SMTP</h4></div>
-										  						</div>
-									  						</div>
-								
-									  					</div>
-									  				</div>
+                                    <a name="type-im"></a>
+                                    <h3>Instant Messaging</h3>
+                                    <hr>
+                                    <div class="datafeed-group">
+
+                                        
+                                        <div  class="p-left" data-toggle="modal" data-target="#jabber-modal">
+                                            <div>
+                                                <div id="datafeed-cisco-jabber">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Cisco Jabber (CUPS)</h4></div>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div data-toggle="modal" data-target="#gr-message-modal">
+                                            <div>
+                                                <div id="datafeed-gr-message">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Global Relay Message</h4></div>
+                                            </div>
+                                        </div>
+
+
+                                        <div data-toggle="modal" data-target="#ibm-modal">
+                                            <div>
+                                                <div id="datafeed-ibm-sametime">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>IBM Sametime</h4></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-bottom p-left m-top" data-toggle="modal" data-target="#lua-modal">
+                                            <div>
+                                                <div id="datafeed-lua">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Lua</h4></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-bottom m-top" data-toggle="modal" data-target="#lync-modal">
+                                            <div>
+                                                <div id="datafeed-lync">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Lync</h4></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-bottom m-top" data-toggle="modal" data-target="#skype-business-modal">
+                                            <div>
+                                                <div id="datafeed-skype">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Skype for Business</h4></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-left p-bottom m-top" data-toggle="modal" data-target="#skype-business-online-modal">
+                                            <div>
+                                                <div id="datafeed-skype">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Skype for Business Online</h4></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-bottom m-top" data-toggle="modal" data-target="#symphony-modal">
+                                            <div>
+                                                <div id="datafeed-symphony">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Symphony</h4></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-bottom m-top" data-toggle="modal" data-target="#msteams-modal">
+                                            <div>
+                                                <div id="datafeed-msteams">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Microsoft Teams</h4></div>
+                                            </div>
+                                        </div>
+                                      
+                                        <div class="p-left p-bottom m-top" data-toggle="modal" data-target="#smtp-modal">
+                                            <div>
+                                                <div id="datafeed-smtp">
+                                                    <div></div>
+                                                </div>
+                                                <div class="title"><h4>Custom SMTP</h4></div>
+                                            </div>
+                                        </div>
+                                      
+
+                                    </div>
+                                </div>
 									  				
 									  				<div class="datafeed-container" id="datafeed-fin-message">
 									  					<a name="type-financial"></a>
@@ -296,12 +292,12 @@
 									  					<hr>
 									  					<div class="datafeed-group">
 									  					
-									  						<div class="p-left" data-toggle="modal" data-target="#reuters-modal">
+									  						<div class="p-left" data-toggle="modal" data-target="#refinitiv-modal">
 									  							<div>
-										  							<div id="datafeed-reuters">
+										  							<div id="datafeed-refinitiv">
 										  								<div></div>
 										  							</div>
-										  							<div class="title"><h4>Thomson Reuters</h4></div>
+										  							<div class="title"><h4>Refinitiv</h4></div>
 										  						</div>
 									  							
 									  						</div>
@@ -434,14 +430,7 @@
 										  							<div class="title"><h4>Facebook</h4></div>
 										  						</div>			
 									  						</div>
-									  						<div data-toggle="modal" data-target="#google-plus-modal">
-									  							<div>
-										  							<div id="datafeed-google-plus">
-										  								<div></div>
-										  							</div>
-										  							<div class="title"><h4>Google+</h4></div>
-										  						</div>
-									  						</div>
+									  						
 									  						<div data-toggle="modal" data-target="#hootsuite-modal">
 									  							<div>
 										  							<div id="datafeed-hootsuite">
@@ -450,7 +439,7 @@
 										  							<div class="title"><h4>Hootsuite</h4></div>
 										  						</div>
 									  						</div>
-									  						<div class="p-left p-bottom m-top" data-toggle="modal" data-target="#instagram-modal">
+									  						<div data-toggle="modal" data-target="#instagram-modal">
 									  							<div>
 										  							<div id="datafeed-instagram">
 										  								<div></div>
@@ -459,7 +448,7 @@
 										  						</div>
 									  						</div>
 									  						
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#linkedin-modal">
+									  						<div class="p-left p-bottom m-top" data-toggle="modal" data-target="#linkedin-modal">
 									  							<div>
 										  							<div id="datafeed-linkedin">
 										  								<div></div>
@@ -475,7 +464,7 @@
 										  							<div class="title"><h4>Pinterest</h4></div>
 										  						</div>
 									  						</div>	
-									  						<div class="p-left p-bottom m-top" data-toggle="modal" data-target="#twitter-modal">
+									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#twitter-modal">
 									  							<div>
 										  							<div id="datafeed-twitter">
 										  								<div></div>
@@ -483,7 +472,7 @@
 										  							<div class="title"><h4>Twitter</h4></div>
 										  						</div>
 									  						</div>		
-									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#youtube-modal">
+									  						<div class="p-left p-bottom m-top" data-toggle="modal" data-target="#youtube-modal">
 									  							<div>
 										  							<div id="datafeed-youtube">
 										  								<div></div>
@@ -511,7 +500,7 @@
 										  							<div id="datafeed-cisco-spark">
 										  								<div></div>
 										  							</div>
-										  							<div class="title"><h4>Cisco Spark</h4></div>
+										  							<div class="title"><h4>Cisco Webex Teams</h4></div>
 									  							</div>
 									  						</div>
 									  						
@@ -547,7 +536,15 @@
 										  							</div>
 										  							<div class="title"><h4>Yammer</h4></div>
 										  						</div>
-									  						</div>		
+									  						</div>
+									  						<div class="p-bottom m-top" data-toggle="modal" data-target="#zoom-modal">
+									  							<div>
+										  							<div id="datafeed-zoom">
+										  								<div></div>
+										  							</div>
+										  							<div class="title"><h4>Zoom</h4></div>
+										  						</div>
+									  						</div>			
 									  					</div>
 									  				</div>			  				
 									  				<div class="datafeed-container" id="datafeed-voice">

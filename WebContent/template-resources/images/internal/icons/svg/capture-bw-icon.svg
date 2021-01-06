@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>capture</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="50"></rect>
+    </defs>
+    <g id="capture" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-13" mask="url(#mask-2)" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.38408203">
+                <g transform="translate(4.394531, 3.515625)">
+                    <path d="M1.93244141,26.3064355 L1.93244141,13.849502 C1.93244141,12.3206934 3.17179688,11.0812402 4.70070312,11.0812402 L17.8496289,11.0812402" id="Stroke-1"></path>
+                    <path d="M39.3033105,26.3064355 L39.3033105,13.849502 C39.3033105,12.3206934 38.0639551,11.0812402 36.5350488,11.0812402 L23.386123,11.0812402" id="Stroke-3"></path>
+                    <line x1="17.1576074" y1="33.2281348" x2="24.0781152" y2="33.2281348" id="Stroke-5"></line>
+                    <line x1="20.619043" y1="0.00842773437" x2="20.619043" y2="22.8833301" id="Stroke-7"></line>
+                    <polyline id="Stroke-9" points="28.2304785 16.617666 20.6178809 24.2302637 13.0052832 16.617666"></polyline>
+                    <path d="M37.5631348,40.3454687 C36.9977051,41.7591406 35.2894043,42.9155859 33.7668457,42.9155859 L7.46889648,42.9155859 C5.94633789,42.9155859 4.23803711,41.7591406 3.67250977,40.3454687 L0.192333984,31.6447852 C-0.373095703,30.2312109 0.409912109,29.074668 1.9324707,29.074668 L39.3032715,29.074668 C40.8257324,29.074668 41.6088379,30.2312109 41.0434082,31.6447852 L37.5631348,40.3454687 Z" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

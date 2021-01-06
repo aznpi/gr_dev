@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>authenticate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="50"></rect>
+    </defs>
+    <g id="authenticate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-4" mask="url(#mask-2)" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.38408203">
+                <g transform="translate(3.515625, 3.515625)">
+                    <path d="M35.6208105,37.580293 C31.8428809,40.901582 26.8877051,42.9156445 21.4621191,42.9156445 C9.61358398,42.9156445 0.00850585938,33.3105664 0.00850585938,21.4620312 C0.00850585938,9.61359375 9.61358398,0.00841796875 21.4621191,0.00841796875 C33.3106543,0.00841796875 42.9156348,9.61359375 42.9156348,21.4620312 C42.9156348,26.8801953 40.9072363,31.8291211 37.5940527,35.6050977" id="Stroke-1"></path>
+                    <polyline id="Stroke-3" points="8.82966797 25.4847461 17.4476367 33.9189258 34.0945117 9.00515625"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

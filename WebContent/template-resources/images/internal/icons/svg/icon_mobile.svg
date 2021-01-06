@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>byod</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="512" height="512"></rect>
+    </defs>
+    <g id="byod" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-27" mask="url(#mask-2)">
+                <g transform="translate(100.000000, 36.000000)">
+                    <polyline id="Stroke-1" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round" points="241.0315 330.7841 241.0315 57.7791 70.9525 57.7791"></polyline>
+                    <g id="Group-26" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 0.543000)">
+                        <path d="M42.6062,340.1864 L42.6062,361.9604 C42.6062,373.6534 52.1732,383.2204 63.8662,383.2204 L219.7722,383.2204 C231.4642,383.2204 241.0312,373.6534 241.0312,361.9604 L241.0312,330.2414" id="Stroke-2" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="204.6263" y1="326.5272" x2="70.8833" y2="326.5272" id="Stroke-4" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M42.6062,171.8339 L42.6062,21.8029 C42.6062,10.1099 52.1732,0.5429 63.8662,0.5429 L219.7722,0.5429 C231.4642,0.5429 241.0312,10.1099 241.0312,21.8029 L241.0312,28.8899" id="Stroke-6" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M141.8186,347.787 C137.9046,347.787 134.7326,350.96 134.7326,354.874 C134.7326,358.788 137.9046,361.961 141.8186,361.961 C145.7326,361.961 148.9056,358.788 148.9056,354.874 C148.9056,350.96 145.7326,347.787 141.8186,347.787" id="Fill-8" fill="#1D1D1B"></path>
+                        <path d="M65.5857,191.8822 L50.5527,176.8492 C42.2507,168.5462 28.7897,168.5462 20.4867,176.8492 C12.1847,185.1512 12.1847,198.6122 20.4867,206.9152 L35.5197,221.9482 C43.8217,230.2502 57.2827,230.2502 65.5857,221.9482 C73.8877,213.6452 73.8877,200.1842 65.5857,191.8822 Z" id="Stroke-10" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M42.6062,83.8632 L36.3792,77.6362 C28.0772,69.3342 14.6162,69.3342 6.3132,77.6362 C-1.9888,85.9392 -1.9888,99.4002 6.3132,107.7022 L42.6062,143.9152" id="Stroke-12" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M65.5857,248.5751 L50.5527,233.5421 C42.2507,225.2391 28.7897,225.2391 20.4867,233.5421 C12.1847,241.8451 12.1847,255.3051 20.4867,263.6071 L35.5197,278.6401 C43.8217,286.9431 57.2827,286.9431 65.5857,278.6401 C73.8877,270.3391 73.8877,256.8771 65.5857,248.5751 Z" id="Stroke-14" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M65.5857,305.2675 L50.5527,290.2345 C42.2507,281.9325 28.7897,281.9325 20.4867,290.2345 C12.1847,298.5375 12.1847,311.9975 20.4867,320.3005 L35.5197,335.3335 C43.8217,343.6365 57.2827,343.6365 65.5857,335.3335 C73.8877,327.0315 73.8877,313.5705 65.5857,305.2675 Z" id="Stroke-16" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M113.4725,21.8031 C109.5585,21.8031 106.3865,24.9761 106.3865,28.8891 C106.3865,32.8031 109.5585,35.9761 113.4725,35.9761 C117.3865,35.9761 120.5585,32.8031 120.5585,28.8891 C120.5585,24.9761 117.3865,21.8031 113.4725,21.8031" id="Fill-18" fill="#1D1D1B"></path>
+                        <line x1="141.8191" y1="28.8895" x2="170.1651" y2="28.8895" id="Stroke-20" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M311.8978,383.2206 L311.8978,256.1726 C311.8978,248.3456 309.5558,236.1026 306.6668,228.8266 L286.1678,177.2086 C284.7218,173.5706 283.5508,167.4496 283.5508,163.5356 L283.5508,113.9286 C260.0688,113.9286 241.0318,132.9656 241.0318,156.4486 L241.0318,184.7956 L261.6718,255.6606" id="Stroke-22" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="99.2991" y1="383.2206" x2="170.1651" y2="439.9126" id="Stroke-24" stroke="#1D1D1B" stroke-width="14.173" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>compliance</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="50"></rect>
+    </defs>
+    <g id="compliance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-13" mask="url(#mask-2)">
+                <g transform="translate(9.082031, 3.515625)">
+                    <path d="M27.6905762,4.16073242 L29.0746582,4.16073242 C30.5972168,4.16073242 31.8429199,5.40643555 31.8429199,6.92899414 L31.8429199,40.1474512 C31.8429199,41.6699121 30.5972168,42.9156152 29.0746582,42.9156152 L2.77670898,42.9156152 C1.25415039,42.9156152 0.00844726563,41.6699121 0.00844726563,40.1474512 L0.00844726563,6.92899414 C0.00844726563,5.40643555 1.25415039,4.16073242 2.77670898,4.16073242 L4.16079102,4.16073242" id="Stroke-1" stroke="#1D1D1B" stroke-width="1.38408203" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M4.16075195,6.92895508 L2.77666992,6.92895508 L2.77666992,37.379248 C2.77666992,38.9080566 4.01602539,40.1475098 5.54483398,40.1475098 L22.1541113,40.1475098 L22.1541113,34.6109863 L26.3063574,34.6109863" id="Stroke-3" stroke="#1D1D1B" stroke-width="1.38408203" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20.0768164,4.2062207 C20.0770117,4.19098633 20.0779883,4.17594727 20.0779883,4.16071289 C20.0779883,1.86745117 18.2190039,0.00846679687 15.9256445,0.00846679687 C13.6323828,0.00846679687 11.7733984,1.86745117 11.7733984,4.16071289 C11.7733984,4.17594727 11.7742773,4.19098633 11.7744727,4.2062207 L6.92896484,4.2062207 L6.92896484,8.31305664 L24.9223242,8.31305664 L24.9223242,4.16071289 L20.0768164,4.2062207 Z" id="Stroke-5" stroke="#1D1D1B" stroke-width="1.38408203" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16.6177441,3.46869141 C16.6177441,3.85091797 16.3078809,4.16068359 15.9256543,4.16068359 C15.5434277,4.16068359 15.2335645,3.85091797 15.2335645,3.46869141 C15.2335645,3.08646484 15.5434277,2.77660156 15.9256543,2.77660156 C16.3078809,2.77660156 16.6177441,3.08646484 16.6177441,3.46869141" id="Fill-7" stroke="none" fill="#1D1D1B" fill-rule="evenodd"></path>
+                    <polyline id="Stroke-9" stroke="#1D1D1B" stroke-width="1.38408203" fill="none" stroke-linecap="round" stroke-linejoin="round" points="24.9223437 40.1474902 29.0746875 35.9950488 29.0746875 6.92893555 27.6906055 6.92893555"></polyline>
+                    <polyline id="Stroke-11" stroke="#1D1D1B" stroke-width="1.38408203" fill="none" stroke-linecap="round" stroke-linejoin="round" points="8.17944336 26.0048828 13.4640137 31.1767578 23.6719238 15.8996094"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

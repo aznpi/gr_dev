@@ -38,7 +38,7 @@
 									<ul id="year-tab" class="nav nav-tabs" role="tablist">
 										<li role="presentation" class="dropdown active left">
 										
-											<a data-target="#" href="#" role="tab" class="dropdown-toggle" data-toggle="dropdown" aria-controls="news-2014" aria-expanded="false"><span id="year">2014</span> <span class="caret"></span></a>
+											<a role="tab" type="button" class="dropdown-toggle" data-toggle="dropdown" aria-controls="news-2014" aria-expanded="false"><span id="year">2014</span> <span class="caret"></span></a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop1" id="year-drop">
 												<li class="active"><a href="#news-2014" tabindex="-1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="news-2014" aria-expanded="false">2014</a></li>
 												<li><a href="#news-2013" tabindex="-1" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="news-2013" aria-expanded="false">2013</a></li>
@@ -249,7 +249,7 @@
 				var $right_sub = $('#events-container');
 				
 				$(window).scroll(function () {
-					  div_right = $panel_right.position().top;
+					  div_right = $panel_right.position.top;
 					  var scrollTop = $(document).scrollTop();
 					  if (scrollTop > div_right){
 					   console.log(div_right);

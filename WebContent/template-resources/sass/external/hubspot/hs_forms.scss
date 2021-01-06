@@ -1,0 +1,373 @@
+/* All HubSpot Forms
+   ========================================================================== */
+/*SASS variables*/
+$header-color:#DA2426;
+$font-color:#050505;
+
+/* Form Field (selector for form field wrapper) */
+.hs-form .hs-form-field {}
+
+/* Descriptions (targets class applied to Help Text divs) */
+.hs-form .hs-field-desc {}
+
+/* Labels (selects field labels and error messages) */
+.hs-form label {}
+.hs-form .hs-form-field > label {}
+
+/* Inputs (selectors for all inputs)  */
+.hs-form input[type="text"],
+.hs-form input[type="password"], 
+.hs-form input[type="datetime"], 
+.hs-form input[type="datetime-local"], 
+.hs-form input[type="date"], 
+.hs-form input[type="month"], 
+.hs-form input[type="time"], 
+.hs-form input[type="week"], 
+.hs-form input[type="number"], 
+.hs-form input[type="email"], 
+.hs-form input[type="url"], 
+.hs-form input[type="search"], 
+.hs-form input[type="tel"], 
+.hs-form input[type="color"],
+.hs-form input[type="file"],
+.hs-form textarea,
+.hs-form select {
+	
+	    box-sizing: content-box;
+}
+
+/* Inputs in focus (selectors for all inputs when clicked)  */
+.hs-form input[type="text"]:focus,
+.hs-form input[type="password"]:focus, 
+.hs-form input[type="datetime"]:focus, 
+.hs-form input[type="datetime-local"]:focus, 
+.hs-form input[type="date"]:focus, 
+.hs-form input[type="month"]:focus, 
+.hs-form input[type="time"]:focus, 
+.hs-form input[type="week"]:focus, 
+.hs-form input[type="number"]:focus, 
+.hs-form input[type="email"]:focus, 
+.hs-form input[type="url"]:focus, 
+.hs-form input[type="search"]:focus, 
+.hs-form input[type="tel"]:focus, 
+.hs-form input[type="color"]:focus,
+.hs-form input[type="file"]:focus,
+.hs-form textarea:focus,
+.hs-form select:focus {}
+
+/* Multi-line inputs (selectors to target multi-line fields */
+.hs-form textarea {}
+.hs-form textarea:focus {}
+
+/* Dropdowns (selectors for dropdowns) */
+.hs-form select {}
+.hs-form select:focus {}
+
+/* Multi-select (selectors for multi-select fields) */
+.hs-form form.hs-form .hs-form-field ul.inputs-list {}
+
+.hs-form form.hs-form .hs-form-field ul.inputs-list li input {}
+.hs-form input[type="radio"] {}
+.hs-form input[type="checkbox"] {}
+
+/* Required (selectors for fields, when they do not pass validation) */
+.hs-form input:focus:required:invalid, 
+.hs-form textarea:focus:required:invalid, 
+.hs-form select:focus:required:invalid {}
+
+.hs-form input:focus:required:invalid:focus, 
+.hs-form textarea:focus:required:invalid:focus, 
+.hs-form select:focus:required:invalid:focus {}
+
+/* Error message (selector for validation messages) */
+.hs-form .hs-error-msgs label{}
+
+/* Placeholder Text (styles the placeholder attribute text) */
+::-webkit-input-placeholder { /* Webkit Browsers */}
+:-moz-placeholder { /* Firefox 18- */}
+::-moz-placeholder { /* Firefox 19+ */}
+:-ms-input-placeholder { /* IE10 */}
+
+/* Multi Column Form (selectors for fieldsets and field wrappers) 
+   ========================================================================== */
+
+.hs-form .hs-form fieldset.form-columns-1 {}
+.hs-form .hs-form fieldset.form-columns-1 .hs-form-field {}
+
+.hs-form .hs-form fieldset.form-columns-2 {}
+.hs-form .hs-form fieldset.form-columns-2 .hs-form-field {}
+
+.hs-form .hs-form fieldset.form-columns-3 {}
+.hs-form .hs-form fieldset.form-columns-3 .hs-form-field {}
+
+.gr-hs-form{
+	
+	.hs-form-required{
+		color:$header-color;
+	}
+	margin-bottom:50px;
+	
+	.bg-bnr{
+		
+		background-color:$header-color;
+		
+	}
+	#product-title{
+	
+		margin:15px -15px 15px -15px;
+		
+		h1{
+			color:#FFF;
+			line-height:3.6;
+		}
+	}
+	#message-icon{
+		
+		background: url(../../images/internal/icons/icon_message_app_message-compressor.png) no-repeat;
+	    background-size: cover;
+	    float: left;
+	    height: 73px;
+	    margin:30px;
+	    width: 73px;
+	
+	}
+	
+	/*CUSTOM CSS*/
+
+	.hbspt-form{
+		
+		margin-top:40px;
+		
+		fieldset{
+			max-width:inherit !important;
+			margin-bottom:15px !important;
+		}
+		fieldset.form-columns-2 .hs-form-field{
+			width:50%;
+		}
+		h1,h2,h3{
+		
+			color:$font-color;
+			font-weight:200;
+		}
+		
+		h1{
+			font-size:36px;
+		}
+		
+		label{
+			display: block;
+		    float: none;
+		    width: auto;
+		    font-weight: bold;
+		    text-align: left;
+		    line-height: 20px;
+		    padding-top: 0;
+		    margin-bottom: 4px;
+		    
+		    span{
+		    	    padding-top: 5px;
+	    			font-size: 13px;
+	    			font-weight: 600;
+	    			width: 130px;
+		    }
+		    
+		    &.hs-form-radio-display{
+		    	span{
+		    		font-weight: 400;
+		    	}
+		    }
+		    
+		    &.hs-form-radio-display{
+		    
+		    	span{
+		    		font-weight: 400;
+		    	
+		    	}
+		    
+		    }
+		}
+		.hs-richtext{
+			margin-bottom: 3px;
+		    line-height: 18px;
+		    font-size: 13px;
+		    color:$font-color;
+		    
+		    p{
+		    	margin:20px 0;
+		    }
+		    
+		    ol{
+		    	margin-top:-5px;
+		    }
+		}
+		
+		input.hs-input, textarea.hs-input{
+			transition: border 0.2s linear,box-shadow 0.2s linear;
+	    	box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+		}
+		
+		input[type="file"].hs-input{
+			height:auto;
+			width:auto !important;
+		}
+		input[type="text"].hs-input, textarea.hs-input, input[type="email"].hs-input{
+	    	box-sizing: border-box;
+			max-width: 500px;
+	    	width: 90%;
+		}
+		li{
+		
+			&.hs-form-booleancheckbox , &.hs-form-radio{
+				list-style:none;
+			}
+		
+		}
+		input[type="radio"].hs-input,input[type="checkbox"].hs-input{
+			height:auto;
+			margin-right:10px;
+		}
+		input.hs-input, textarea.hs-input, select.hs-input{
+			display: inline-block;
+		    padding: 4px;
+		    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		    font-size: 13px;
+		    font-weight: normal;
+		    line-height: 18px;
+		    color: #666;
+		    border: 1px solid #ccc;
+		    -webkit-border-radius: 3px;
+		    -moz-border-radius: 3px;
+		    -ms-border-radius: 3px;
+		    border-radius: 3px;
+		}
+		input:not([type="image"]), textarea,  textarea.hs-input{
+			box-sizing: content-box;
+		}
+		
+		input.hs-input, textarea.hs-input{
+			transition: border 0.2s linear,box-shadow 0.2s linear;
+    		box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+		}
+		
+		input.hs-input, textarea.hs-input, select.hs-input{
+			display: inline-block;
+			font-size: 13px;
+    		font-weight: normal;
+    		border-radius: 3px;
+    		height:40px;
+		}
+		textarea.hs-input{
+			height:30px !important;
+			width:98% !important;
+		}
+		.hs-fieldtype-radio{
+			margin-top:10px;
+		}
+		input.hs-input.error, div.field.error input, div.field.error textarea, div.field.error .chzn-choices, textarea.hs-input.error, select.hs-input.error{
+			border-color: #c87872;
+	    	box-shadow: 0 0 3px rgba(171,41,32,0.25);
+		}
+		
+		legend{
+			
+			border-bottom:0;
+			margin-bottom:0;
+			
+			&.hs-field-desc{
+				color:#AAAAAA;
+				font-size:12px;
+				font-weight:400;
+			}
+		}
+		ul{
+			&.inputs-list{
+				padding-left:0;
+			}
+		}
+		.hs-submit{
+		
+			input[type=submit]{
+			
+				background-color:$header-color !important;
+				border:1px solid $header-color !important;
+				border-radius:5px !important;
+				color:#fff;
+				font-weight: 600;
+			    width: 100px;
+			    height: 50px;
+				
+				&:hover{
+					background-color:#fff !important;
+					color:$header-color;
+				
+				}		
+			
+			}
+			
+		}
+		
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+		.gr-hs-form{
+			#product-title{
+				
+				margin-top:0px;
+				
+				h1 {
+				    font-size: 25px;
+				    margin-top: 15px;
+				}
+			} 
+			.gr-hs-form-container{
+				width:100%;
+			}
+		}
+	} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+
+	} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) and  (min-width: 601px){
+	.gr-hs-form{
+		#product-title{
+			margin-top:0;
+			h1{
+				
+    			margin-top: 20px;			
+			}
+		}
+		
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	.gr-hs-form{
+		#product-title{
+			
+			margin-top:45px;
+			
+			h1{
+				line-height: 1;
+    			margin-top: 30px;			
+			}
+		}
+		
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+	.gr-hs-form{
+		.gr-hs-form-container{
+			width:74%;
+		}
+	}
+}

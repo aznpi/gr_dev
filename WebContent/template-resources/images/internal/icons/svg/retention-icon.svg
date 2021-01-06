@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Global-Relay-Archive-for-Slack-Landing-Page" transform="translate(-926.000000, -801.000000)">
+            <g id="Group-9" transform="translate(926.000000, 801.000000)">
+                <polygon id="Fill-1" fill="#DF1F26" points="14.0625 20.3125 17.1875 20.3125 17.1875 17.1875 14.0625 17.1875"></polygon>
+                <polygon id="Fill-2" fill="#DF1F26" points="14.0625 15.625 17.1875 15.625 17.1875 12.5 14.0625 12.5"></polygon>
+                <polygon id="Fill-3" fill="#DF1F26" points="9.375 15.625 12.5 15.625 12.5 12.5 9.375 12.5"></polygon>
+                <g id="Group-8">
+                    <path d="M21.875,7.8125 L3.125,7.8125 L3.125,4.6875 L6.25,4.6875 L6.25,6.25 L9.375,6.25 L9.375,4.6875 L15.625,4.6875 L15.625,6.25 L18.75,6.25 L18.75,4.6875 L21.875,4.6875 L21.875,7.8125 Z M3.125,21.875 L21.875,21.875 L21.875,10.9375 L3.125,10.9375 L3.125,21.875 Z M22.65625,1.5625 L18.75,1.5625 L18.75,0 L15.625,0 L15.625,1.5625 L9.375,1.5625 L9.375,0 L6.25,0 L6.25,1.5625 L2.34375,1.5625 C1.0484375,1.5625 0,2.6125 0,3.90625 L0,22.65625 C0,23.95 1.0484375,25 2.34375,25 L22.65625,25 C23.95,25 25,23.95 25,22.65625 L25,3.90625 C25,2.6125 23.95,1.5625 22.65625,1.5625 L22.65625,1.5625 Z" id="Fill-4" fill="#B8BFC7"></path>
+                    <polygon id="Fill-6" fill="#DF1F26" points="4.6875 15.625 7.8125 15.625 7.8125 12.5 4.6875 12.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

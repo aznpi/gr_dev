@@ -18,12 +18,12 @@
 		<div id="main-container" class="container full">
 			
 				<div id="main-content-container" class="full">
-					<div id="message-landing">
+					<div id="red-angle-landing" class="message-landing">
 						<section class="home-panel">
-							<div class="row red-angle">
+							<div class="row red-angle red-angle-large">
 								
-						
-									<div class="col-md-6 left-container">
+								<div id="red-angle-carousel" class="carousel slide slide-fade" data-ride="carousel" data-interval="5000">
+									<div class="col-md-6 col-lg-6 left-container">
 									
 										<div id="message-title-top">
 											<div id="message-icon"></div>
@@ -35,15 +35,113 @@
 										<div id="message-title-middle">
 											<h4 class="body-text">Global Relay Message enables your entire organization ro colloborate both internally and across your industry, confident that complianc, privacy, and security tools are built into the platform.</h4>
 										</div>
-										<div id="message-title-bottom">
+										<div id="title-bottom">
+											<ul id="ui-list-screenshot" class="carousel-indicators">
+					                            <li data-target="#red-angle-carousel" data-slide-to="0" class="active"><i class="fas fa-chevron-circle-right"></i> <span>Improved Desktop Client Interface</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="1"><i class="fas fa-chevron-circle-right"></i> <span>Message for iOS and Android</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="2"><i class="fas fa-chevron-circle-right"></i> <span>Integrated Compliant Text Archiving</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="3"><i class="fas fa-chevron-circle-right"></i> <span>Real-time Client Synchronization</span></li>
+					                        </ul>
 											<button class="btn-white" rel="https://info.globalrelay.com/contact-a-specialist">SIGN UP NOW</button>
 											<span>Secure. Compliant. Free.</span>
 										</div>
 											  
 									</div>
-									<div class="col-md-6 right-container">
-										<div id="message-ui"></div>
-									</div>
+									<div class="col-md-6 col-lg-6 right-container ui-bottom-container">
+					                    <div id="message-screenshot-ui">
+					
+					                            <div class="carousel-inner">
+					                                <div class="item active">
+					                                    <div class="view">
+					                                        <div>
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_split-view.png" class="img-responsive">
+					                                        	<div class="zoom-container" data-toggle="modal" data-target="#split-screenshot">
+																	<div class="circle-container">
+																		<i class="fas fa-search-plus"></i>
+																	</div>
+																</div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+					                                <div class="item">
+					                                      <div class="view">
+					                                        <div>
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_ios_android.png" class="img-responsive" width="90%">
+					                                        	<div class="zoom-container" data-toggle="modal" data-target="#ios-screenshot">
+																	<div class="circle-container">
+																		<i class="fas fa-search-plus"></i>
+																	</div>
+																</div>
+					                                        </div>
+					                                      </div>
+					                                 </div>
+					                                 <div class="item">
+					                                      <div class="view">
+					                                        <div>
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_archiving.png" class="img-responsive">
+					                                        	<div class="zoom-container" data-toggle="modal" data-target="#message-archiving-screenshot">
+																	<div class="circle-container">
+																		<i class="fas fa-search-plus"></i>
+																	</div>
+																</div>
+					                                        </div>
+					                                      </div>
+					                                 </div>
+					                                 <div class="item">
+					                                      <div class="view">
+					                                        <div>
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_offlinemessaging_v2.png" class="img-responsive">
+					                                        	<div class="zoom-container" data-toggle="modal" data-target="#offline-screenshot">
+																	<div class="circle-container">
+																		<i class="fas fa-search-plus"></i>
+																	</div>
+																</div>
+					                                        </div>
+					                                      </div>
+					                                 </div>
+					
+					                        	</div>
+					                       
+					                    </div>
+					                    <div id="split-screenshot" class="modal fade" tabindex="-1" role="dialog">
+										  <div class="modal-dialog modal-screenshot">
+										    <div class="modal-content">
+										        <div class="modal-body">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_split-view.png" class="img-responsive">
+										        </div> 
+										    </div>
+										  </div>
+										</div>
+										<div id="ios-screenshot" class="modal fade" tabindex="-1" role="dialog">
+										  <div class="modal-dialog modal-screenshot">
+										    <div class="modal-content">
+										        <div class="modal-body">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_ios_android.png" class="img-responsive">
+										        </div> 
+										    </div>
+										  </div>
+										</div>
+										<div id="message-archiving-screenshot" class="modal fade" tabindex="-1" role="dialog">
+										  <div class="modal-dialog modal-screenshot">
+										    <div class="modal-content">
+										        <div class="modal-body">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_archiving.png" class="img-responsive">
+										        </div> 
+										    </div>
+										  </div>
+										</div>
+										<div id="offline-screenshot" class="modal fade" tabindex="-1" role="dialog">
+										  <div class="modal-dialog modal-screenshot">
+										    <div class="modal-content">
+										        <div class="modal-body">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_offlinemessaging_v2.png" class="img-responsive">
+										        </div> 
+										    </div>
+										  </div>
+										</div>
+					                </div>
+									
+								</div>
 								
 							</div>
 						</section>
@@ -143,25 +241,25 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-3 vid-container">
 									<dl id="one-one-panel" class="support-video-play" rel="https://player.vimeo.com/video/287338237?color=f00020&byline=0&portrait=0;autoplay=1">
 										 <dd></dd>
 										 <dt>1 to 1 Conversations</dt>
 									</dl>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 vid-container">
 									<dl id="multi-party-panel" class="support-video-play" rel="https://player.vimeo.com/video/287338530?color=f00020&byline=0&portrait=0;autoplay=1">
 										 <dd></dd>
 										 <dt>Multi-Party Conversations</dt>
 									</dl>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 vid-container">
 									<dl id="company-channels-panel" class="support-video-play" rel="https://player.vimeo.com/video/287338349?color=f00020&byline=0&portrait=0;autoplay=1">
 										 <dd></dd>
 										 <dt>Company Channels</dt>
 									</dl>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 vid-container">
 									<dl id="business-channels-panel" class="support-video-play" rel="https://player.vimeo.com/video/287338447?color=f00020&byline=0&portrait=0;autoplay=1">
 										 <dd></dd>
 										 <dt>Business Channels</dt>
@@ -173,6 +271,27 @@
 									<p class="bold">For more information,</p>
 									<p class="bold">email <a href="mailto:info@globalrelay.net">info@globalrelay.net</a> or call 1-866-484-6630</p>
 									<button class="btn-red" rel="https://info.globalrelay.com/contact-a-specialist">SIGN UP NOW</button>
+								</div>
+							</div>
+						</section>
+						<section id="im-download" class="home-panel">
+							<div class="row bg-light-grey">
+								<div class="col-md-6 im-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_message_im_download-compressor.png" class="img-responsive">
+								</div>
+								<div class="col-md-6">
+									
+									<div>
+									
+										<h1>
+											Download our White Paper on the Future of Collaborative Messaging in Finance
+										</h1>
+									
+									</div>
+									<div>
+										<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-59c816ef-eba9-4f4c-8101-b03b215a15fc"><span class="hs-cta-node hs-cta-59c816ef-eba9-4f4c-8101-b03b215a15fc" id="hs-cta-59c816ef-eba9-4f4c-8101-b03b215a15fc"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/461136/59c816ef-eba9-4f4c-8101-b03b215a15fc" ><img class="hs-cta-img" id="hs-cta-img-59c816ef-eba9-4f4c-8101-b03b215a15fc" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/461136/59c816ef-eba9-4f4c-8101-b03b215a15fc.png"  alt="DOWNLOAD NOW"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(461136, '59c816ef-eba9-4f4c-8101-b03b215a15fc', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
+									</div>
+
 								</div>
 							</div>
 						</section>
@@ -192,11 +311,22 @@
 			        </div>
 			    </div>
 			</div>
+			
 								 		
 			<%@ include file="../includes/footer.jsp" %>
 			
 			<!-- product image modal -->
 			
+		<script>
+			$(document).ready(function() {
+				 $('#red-angle-carousel').carousel();
 		
+			    $(".carousel-indicators").click(function(){
+			        $('#red-angle-carousel').carousel('pause');
+			    });
+			    
+			    
+			});
+		</script>
 	</body>
 </html>

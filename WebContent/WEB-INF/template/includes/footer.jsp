@@ -54,7 +54,7 @@
 					
 					<div class="first-icon col-md-3">
 						<!-- <div id="award-1"></div> -->
-						<img src="${baseUrl}/template-resources/images/internal/logos/logo_footer_best_managed.png" class="img-responsive"/>
+						<img src="${baseUrl}/template-resources/images/internal/logos/logo_footer_best_managed_v2.png" class="img-responsive"/>
 					</div>
 					<div class="col-md-3">
 						<!-- <div id="award-2"></div> -->
@@ -142,7 +142,16 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
             </div>
             <div class="modal-body">
-                <iframe frameborder="0" allowfullscreen=""></iframe>
+                <!--[if lte IE 8]>
+				<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+				<![endif]-->
+				<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+				<script>
+				  hbspt.forms.create({
+					portalId: "461136",
+					formId: "f0b04006-48c1-49bd-bd65-55f0305264b9"
+				});
+				</script>
             </div>
         </div>
     </div>
@@ -163,11 +172,11 @@
 	  <i class="fab fa-facebook-f"></i>
 	  <span>Like us on Facebook</span>
 	</div>
-	<div id="phone-container" class="btn-contact-us fa-2x" rel="http://info.globalrelay.net/contact-specialist?iframe" tar="global">
+	<div id="phone-container" class="btn-contact-us fa-2x" rel="" tar="global">
 	  <i class="fa fa-envelope"></i>
 	  <span>Contact a specialist</span>
 	</div>
-	<div id="demo-container" class="fa-2x" rel="${baseUrl}/contact-us/demo" tar="global">
+	<div id="demo-container" class="fa-2x" rel="https" tar="global">
 	  <i class="fa fa-laptop"></i>
 	  <span>Request a demo</span>
 	</div>

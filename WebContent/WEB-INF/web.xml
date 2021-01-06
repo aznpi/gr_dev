@@ -50,6 +50,15 @@
   	<servlet-name>home2</servlet-name>
   	<url-pattern>/index2</url-pattern>
   </servlet-mapping>
+
+<servlet>
+  	<servlet-name>home3</servlet-name>
+  	<jsp-file>/WEB-INF/template/index3.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>home3</servlet-name>
+  	<url-pattern>/index3</url-pattern>
+  </servlet-mapping>
   
   <servlet>
   	<servlet-name>error404</servlet-name>
@@ -384,6 +393,14 @@
   	<url-pattern>/services/analysis</url-pattern>
   </servlet-mapping>
   <!-- forms -->
+  <servlet>
+  	<servlet-name>messageSignUpForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/message/message_sign_up.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>messageSignUpForm</servlet-name>
+  	<url-pattern>/forms/message/message-signup</url-pattern>
+  </servlet-mapping>
   
   <servlet>
   	<servlet-name>contactSpecialistForm</servlet-name>
@@ -909,4 +926,94 @@
   	<url-pattern>/services/landing/message/</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+ 	<servlet-name>evxLanding</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/evx_landing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>evxLanding</servlet-name>
+  	<url-pattern>/services/landing/evx/</url-pattern>
+  </servlet-mapping>
+  
+   <!-- landing pages -->
+  <servlet>
+ 	<servlet-name>messageTextLanding</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/message_text_landing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>messageTextLanding</servlet-name>
+  	<url-pattern>/services/landing/message/text</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>messageTextLanding2</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/message_text_landing_v2.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>messageTextLanding2</servlet-name>
+  	<url-pattern>/services/landing/message/text-2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>archiveSlack</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/archive_slack.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>archiveSlack</servlet-name>
+  	<url-pattern>/services/archive/slack/</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>archiveZoom</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/archive_zoom.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>archiveZoom</servlet-name>
+  	<url-pattern>/services/archive/zoom/</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>archiveMsTeams</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/archive_ms_teams.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>archiveMsTeams</servlet-name>
+  	<url-pattern>/services/archive/ms-teams/</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>archiveLandingTest</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/archive_landing_test.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>archiveLandingTest</servlet-name>
+  	<url-pattern>/services/archive/landing/test</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>mtosForm</servlet-name>
+  	<jsp-file>/WEB-INF/template/forms/mtos_confirmation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mtosForm</servlet-name>
+  	<url-pattern>/form/mtos</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ 	<servlet-name>chooseGr</servlet-name>
+  	<jsp-file>/WEB-INF/template/gr_choose.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>chooseGr</servlet-name>
+  	<url-pattern>/resources/why-global-relay</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Landing Page -->
+  <servlet>
+ 	<servlet-name>partnerPortal</servlet-name>
+  	<jsp-file>/WEB-INF/template/landing_pages/partners/partners_portal.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>partnerPortal</servlet-name>
+  	<url-pattern>/landing_page/partners/portal</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -47,9 +47,10 @@
 								<!-- Nav tabs -->
 								<ul id="year-tab" class="nav nav-tabs" role="tablist">
 					                <li role="presentation" class="dropdown active">
-					                    <a data-target="#" href="#" role="tab" class="dropdown-toggle" data-toggle="dropdown" aria-controls="awards-2018" aria-expanded="false"><span id="year">2018</span> <span class="caret"></span></a>
+					                    <a type="button" role="tab" class="dropdown-toggle" data-toggle="dropdown" aria-controls="awards-2019" aria-expanded="false"><span id="year">2019</span> <span class="caret"></span></a>
 					                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1" id="year-drop">
-					                    	<li class="active"><a href="#awards-2018" tabindex="-1" role="tab" id="dropdown6-tab" data-toggle="tab" aria-controls="awards-2018" aria-expanded="false">2018</a></li>
+					                    	<li class="active"><a href="#awards-2019" tabindex="-1" role="tab" id="dropdown6-tab" data-toggle="tab" aria-controls="awards-2019" aria-expanded="false">2019</a></li>
+					                    	<li><a href="#awards-2018" tabindex="-1" role="tab" id="dropdown6-tab" data-toggle="tab" aria-controls="awards-2018" aria-expanded="false">2018</a></li>
 					                    	<li><a href="#awards-2017" tabindex="-1" role="tab" id="dropdown5-tab" data-toggle="tab" aria-controls="awards-2017" aria-expanded="false">2017</a></li>
 					                    	<li><a href="#awards-2016" tabindex="-1" role="tab" id="dropdown5-tab" data-toggle="tab" aria-controls="awards-2016" aria-expanded="false">2016</a></li>
 					                        <li><a href="#awards-2015" tabindex="-1" role="tab" id="dropdown5-tab" data-toggle="tab" aria-controls="awards-2015" aria-expanded="false">2015</a></li>
@@ -61,7 +62,32 @@
 					                </li>					    		    
 					            </ul>
 								<div class="tab-content">
-								<div role="tabpanel" class="tab-pane active in fade" id="awards-2018" aria-labelledby="dropdown5-tab">
+								<div role="tabpanel" class="tab-pane active in fade" id="awards-2019" aria-labelledby="dropdown6-tab">
+										<div class="awards-container">
+										
+											<div class="image-container">
+												<img src="${baseUrl}/template-resources/images/internal/logos/logo_globe_mail_2019.png" width="150px" height="68px" alt="Globe and Mail Top 400 Growing Companies"/>
+											</div>
+											<div class="description-container">
+												<p>Global Relay was listed in Globe and Mail - Report on Business’ inaugural ranking of Canada’s Top 400 Growing Companies based on 3-year revenue growth. Listed firms offer lessons on finding new markets, commercializing great ideas, and building teams that can inspire organizations of all sizes. </p>
+											</div>
+										
+										</div>
+										<div class="awards-container">
+										
+											<div class="image-container">
+												<img src="${baseUrl}/template-resources/images/internal/logos/logo_growth_2019.png" width="100px" height="144px" alt="GROWTH 500 2019"/>
+											</div>
+											<div class="description-container">
+												<p>Global Relay made it on the prestigious GROWTH 500 (formerly, PROFIT 500) list. This program ranks Canada’s Fastest-Growing Companies nationally, regionally, and by industry based on five-year revenue growth.</p>
+											</div>
+										
+										</div>					
+					                    
+					                </div>
+					                
+					                
+								<div role="tabpanel" class="tab-pane in fade" id="awards-2018" aria-labelledby="dropdown5-tab">
 										<div class="awards-container">
 										
 											<div class="image-container">

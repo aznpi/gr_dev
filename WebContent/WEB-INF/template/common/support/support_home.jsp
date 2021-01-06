@@ -70,20 +70,7 @@
 									</table>
 								</div>
 							</div>
-							<div id="video-content-container">
-								<div class="support-title">
-									<div><h2>SUPPORT VIDEO TUTORIALS</h2></div>
-									<div>Learn how to set up Global Relay services with our step-by-step videos.</div>
-									<div class="call-action-buttons">
 							
-										<button class="btn-red" rel="${baseUrl}/support/technical-support/video-tutorials"><span>Watch the Tutorials</span> <div><i class="fa fa-arrow-circle-right fa-2x"></i></div></button>
-										
-									</div>
-								</div>
-								<div class="support-img">
-									<div class="img-monitors"></div>
-								</div>
-							</div>
 							<div id="status-page-container">
 								<div class="support-title">
 									<div><h2>SYSTEM STATUS</h2></div>

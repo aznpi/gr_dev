@@ -91,23 +91,19 @@
 					</div>
 				</div>
 			</div>
-			<!-- Reuters Modal -->
-			<div class="modal fade message-type-modal" id="reuters-modal" tabindex="-1" role="dialog" aria-labelledby="reuters-label">
+			<!-- Refinitiv Modal -->
+			<div class="modal fade message-type-modal" id="refinitiv-modal" tabindex="-1" role="dialog" aria-labelledby="refinitiv-label">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<div id="datafeed-reuters-pop">
-								<div><h4>Thomson Reuters</h4></div>
+							<div id="datafeed-refinitiv-pop">
+								<div><h4>Refninitv</h4></div>
 							</div>
 						</div>
 						<div class="modal-body">
-						 <p>Global Relay is Thomson Reuters’ exclusive compliance archiving partner for Thomson Reuters Messenger and Eikon. Global Relay Archive securely downloads and preserves messages, chat rooms, files, forms, screenshots, and other data from Reuters messaging platforms in its original formatting. Your compliance officers, eDiscovery staff, and other stakeholders can search and view Reuters messaging data as threaded, color-coded conversations, with summary information for participants and conversations and logging of pre-review actions.</p>
-						 <p>Global Relay Archive also supports Thomson Reuters Deal Tracker, a suite of tools for monitoring and processing FX trades.</p>
-						 <div class="support-links">
-						 	<i class="fa fa-gears left"></i><a href="${baseUrl}/support/help-center?#reuters">Find out how it works</a><br/>
-						 	<i class="fa fa-file-text-o left"></i><a href="http://info.globalrelay.com/hs-fs/hub/461136/file-2416734572-pdf/PDFs/globalrelay_services_complete_services_guide_overview.pdf#page=21" target="_blank">Learn more about Thomson Reuters archiving in the Global Relay Services Guide</a>
-						 </div>
+						 <p>Refinitiv is one of the world’s largest providers of financial markets data and infrastructure. Serving more than 40,000 institutions in approximately over 190 countries, we provide information, insights, and technology that drive innovation and performance in global markets. Our 160-year Reuters heritage of integrity enables customers to make critical decisions with confidence, while our unique open platform, best-in-class data, and cutting-edge technology bring greater opportunity to our customers. By advancing our customers, we drive progress for the entire financial community.</p>
+						 
 				
 						</div>
 						<div class="modal-footer"></div>
@@ -786,11 +782,11 @@
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 							<div id="datafeed-cisco-spark-pop">
-								<div><h4>Cisco Spark</h4></div>
+								<div><h4>Cisco Webex Teams</h4></div>
 							</div>
 						</div>
 						<div class="modal-body">
-						 <p>Cisco Spark is a cloud-based collaboration service for teams. Global Relay Archive allows your organization to efficiently capture, preserve, and manage Cisco Spark messages for regulatory compliance, information governance, eDiscovery, and case management.</p>
+						 <p>Cisco Webex Teams is a cloud-based collaboration service for teams. Global Relay Archive allows your organization to efficiently capture, preserve, and manage Cisco Webex Teams messages for regulatory compliance, information governance, eDiscovery, and case management.</p>
 						</div>
 						<div class="modal-footer"></div>
 					</div>
@@ -825,6 +821,7 @@
 						</div>
 						<div class="modal-body">
 						 <p>Slack is a messaging app for team communication. Global Relay Archive preserves tamperproof records of Slack messaging data for archiving, eDiscovery, supervision, and other use cases.</p>
+						<a href="${baseUrl}/services/archive/slack/">Find out how it works</a>
 						</div>
 						<div class="modal-footer"></div>
 					</div>
@@ -896,6 +893,27 @@
 						 <div class="support-links">
 						 	<i class="fa fa-gears left"></i><a href="${baseUrl}/support/help-center?#yammer">Find out how it works</a><br/>
 						 	<i class="fa fa-file-text-o left"></i><a href="http://info.globalrelay.com/hubfs/PDFs/global_relay_yammer_overview.pdf" target="_blank">Download the Global Relay Archive for Yammer Overview</a>
+						 </div>
+						</div>
+						<div class="modal-footer"></div>
+					</div>
+				</div>
+			</div>
+			<!--Zoom -->
+			<div class="modal fade message-type-modal" id="zoom-modal" tabindex="-1" role="dialog" aria-labelledby="zoom-label">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<div id="datafeed-zoom-pop">
+								<div><h4>Zoom</h4></div>
+							</div>
+						</div>
+						<div class="modal-body">
+						 <p>Zoom is an enterprise videoconferencing application with real-time messaging and content sharing capabilities. Global Relay provides seamless archiving of Zoom Chat and Zoom Meeting content for a broad range of use cases, including information governance, compliance supervision, e-discovery, and legal hold.</p>
+						 <div class="support-links">
+						 	<i class="fa fa-gears left"></i><a href="${baseUrl}/services/archive/zoom">Find out how it works</a><br/>
+						 	
 						 </div>
 						</div>
 						<div class="modal-footer"></div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>data</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="512" height="512"></rect>
+    </defs>
+    <g id="data" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-13" mask="url(#mask-2)" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="14.173">
+                <g transform="translate(93.000000, 36.000000)">
+                    <line x1="226.8581" y1="155.9355" x2="255.2051" y2="155.9355" id="Stroke-1"></line>
+                    <line x1="127.6457" y1="155.9355" x2="198.5117" y2="155.9355" id="Stroke-2"></line>
+                    <line x1="56.7795" y1="155.9355" x2="99.2995" y2="155.9355" id="Stroke-3"></line>
+                    <line x1="212.6852" y1="198.4555" x2="269.3772" y2="198.4555" id="Stroke-4"></line>
+                    <line x1="56.7795" y1="198.4555" x2="184.3385" y2="198.4555" id="Stroke-5"></line>
+                    <line x1="255.2048" y1="240.9745" x2="269.3778" y2="240.9745" id="Stroke-6"></line>
+                    <line x1="141.819" y1="240.9745" x2="226.858" y2="240.9745" id="Stroke-7"></line>
+                    <line x1="56.7795" y1="240.9745" x2="113.4725" y2="240.9745" id="Stroke-8"></line>
+                    <line x1="198.5114" y1="283.495" x2="269.3774" y2="283.495" id="Stroke-9"></line>
+                    <line x1="56.7795" y1="283.495" x2="170.1655" y2="283.495" id="Stroke-10"></line>
+                    <path d="M311.8972,85.1259 L226.8582,0.0859 L28.4332,0.0859 C12.8422,0.0859 0.0862,12.8419 0.0862,28.4329 L0.0862,411.1099 C0.0862,426.6999 12.8422,439.4559 28.4332,439.4559 L297.7242,439.4559 C313.3152,439.4559 326.0712,426.6999 326.0712,411.1099 L326.0712,113.4719 L269.3772,113.4719 C253.7222,113.4719 241.0322,100.7809 241.0322,85.1259 L241.0322,56.7789" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

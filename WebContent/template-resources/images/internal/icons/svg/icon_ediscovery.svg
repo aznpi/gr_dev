@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ediscovery</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="512" height="512"></rect>
+    </defs>
+    <g id="ediscovery" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-23" mask="url(#mask-2)" stroke="#1D1D1B" stroke-width="14.173">
+                <g transform="translate(36.000000, 36.000000)">
+                    <path d="M354.4172,177.2522 C354.4172,275.0982 275.0982,354.4172 177.2522,354.4172 C79.4062,354.4172 0.0862,275.0982 0.0862,177.2522 C0.0862,79.4062 79.4062,0.0862 177.2522,0.0862 C275.0982,0.0862 354.4172,79.4062 354.4172,177.2522 Z" id="Stroke-1"></path>
+                    <path d="M326.0705,177.2522 C326.0705,259.4422 259.4425,326.0702 177.2525,326.0702 C95.0615,326.0702 28.4325,259.4422 28.4325,177.2522 C28.4325,95.0622 95.0615,28.4332 177.2525,28.4332 C259.4425,28.4332 326.0705,95.0622 326.0705,177.2522 Z" id="Stroke-3"></path>
+                    <line x1="348.5461" y1="306.0266" x2="321.9781" y2="279.4576" id="Stroke-5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <path d="M299.6926,342.2121 L388.1496,430.6691 C399.8906,442.4101 418.9276,442.4101 430.6696,430.6691 C442.4106,418.9281 442.4106,399.8911 430.6696,388.1501 L368.5896,326.0701 L347.3306,347.3301" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="113.4724" y1="113.4724" x2="241.0314" y2="113.4724" id="Stroke-9" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="85.1262" y1="155.9919" x2="198.5122" y2="155.9919" id="Stroke-11" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="226.8586" y1="155.9919" x2="269.3786" y2="155.9919" id="Stroke-13" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="85.1262" y1="198.5119" x2="141.8192" y2="198.5119" id="Stroke-15" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="170.1653" y1="198.5119" x2="269.3783" y2="198.5119" id="Stroke-17" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="113.468" y1="241.0315" x2="170.165" y2="241.0315" id="Stroke-19" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="198.5119" y1="241.0315" x2="241.0319" y2="241.0315" id="Stroke-21" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -325,6 +325,25 @@
 					        </div>
 					        <div class="red-pointer"></div>
 					    </div>
+					    <div class="col-md-4">
+					        <div id="img-chip-jones" class="main-image">
+					            <dl class="caption-container" rel="c-jones">
+					                <dt><h4>Chip Jones</h4></dt>
+					                <dd><h5>Executive Vice President, Compliance</h5></dd>
+					                <dd class="more-info">
+					                    <div>
+					                        <h3>Chip Jones</h3>
+					                        <h4>Executive Vice President, Compliance</h4>
+					                        <p>Chip joined Global Relay in November 2020 as Executive Vice President - Compliance to ensure that Global Relay products, services and exemplary levels of customer service continue to meet and exceed the needs of current and prospective clients. </p>
+					                        <p>Chip joined from FINRA where he was the Senior Vice President, Member Relations and Education. With over nineteen years of leadership experience with the Financial Industry Regulatory Authority, his responsibilities included maintaining and enhancing open and effective dialogue with FINRA member firms and overseeing FINRA’s Member Education area.</p>
+					                        <p>Prior to joining FINRA, Chip spent six years as Vice President of Regulatory and Industry Affairs at American Express Financial Advisors and he began his career as a senior examiner/investigator at the Virginia Securities Division.</p>
+					                    </div>
+					                </dd>
+					                <div class="arrow-anchor"></div>
+					            </dl>
+					        </div>
+					        <div class="red-pointer"></div>
+					    </div>
 					</div>
 					<div class="row more-info-container">
 					    <div class="col-md-12">

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Global-Relay-Archive-for-Slack-Landing-Page" transform="translate(-226.000000, -928.000000)">
+            <g id="Group-4" transform="translate(226.000000, 926.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="25" height="25"></rect>
+                <g id="Group-2" transform="translate(0.000000, 2.000000)">
+                    <path d="M19.5,18 C20.3295,18 21,18.6705 21,19.5 C21,20.3295 20.3295,21 19.5,21 L3,21 L1.5,21 L0,21 L0,1.5 C0,0.6705 0.6705,0 1.5,0 C2.3295,0 3,0.6705 3,1.5 L3,18 L19.5,18 Z" id="Fill-1" fill="#B8BFC7"></path>
+                    <path d="M14.6514,8.4654 L18.3009,3.6009 C18.7974,2.9364 19.7379,2.8029 20.3994,3.3009 C21.0624,3.7974 21.1974,4.7379 20.6994,5.3994 L16.1994,11.3994 C15.7224,12.0369 14.8299,12.1884 14.1684,11.7474 L10.8489,9.5349 L7.1994,14.3994 C6.7029,15.0624 5.7624,15.1974 5.1009,14.6994 C4.4364,14.2029 4.3029,13.2624 4.8009,12.6009 L9.3009,6.6009 C9.7779,5.9634 10.6704,5.8104 11.3319,6.2514 L14.6514,8.4654 Z" id="Fill-3" fill="#DF1F26"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

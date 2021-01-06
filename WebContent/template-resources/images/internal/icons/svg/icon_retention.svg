@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>retention</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="512" height="512"></rect>
+    </defs>
+    <g id="retention" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-9" mask="url(#mask-2)" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="14.173">
+                <g transform="translate(50.000000, 50.000000)">
+                    <polyline id="Stroke-1" points="305.0858 76.0454 365.2178 76.0454 365.2178 15.9134"></polyline>
+                    <polyline id="Stroke-3" points="106.1112 335.1514 45.9792 335.1514 45.9792 395.2834"></polyline>
+                    <path d="M363.2655,73.7603 C359.3855,69.1303 355.2695,64.6323 350.9165,60.2803 C270.6605,-19.9777 140.5365,-19.9777 60.2795,60.2803 C-6.5195,127.0793 -17.7205,228.4223 26.6755,306.8063" id="Stroke-5"></path>
+                    <path d="M47.9315,337.4375 C51.8115,342.0665 55.9275,346.5655 60.2795,350.9165 C140.5365,431.1745 270.6605,431.1745 350.9165,350.9165 C417.7165,284.1185 428.9175,182.7745 384.5215,104.3905" id="Stroke-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
