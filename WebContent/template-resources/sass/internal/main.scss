@@ -13351,6 +13351,16 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 		}
 		
 		#footer-inner-container{
+			a{
+				color:#FFF;
+				font-weight:100;
+				cursor:pointer;
+				
+				&:hover{
+					color:#FFF;
+					text-decoration:none;
+				}
+			}
 			h5{
 				font-size:20px;
 				font-weight:600;
@@ -13602,6 +13612,10 @@ body{
 			&#section-cloud{
 				.image-container{
 					margin:50px auto;
+					
+					img{
+						margin:0 auto;
+					}
 				}
 				.content-container{
 					

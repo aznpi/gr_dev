@@ -8,26 +8,26 @@
 				<h5>Company</h5>
 				<ul>
 				
-					<li rel="${baseUrl}/company-info/about-us">About Us</li>
-					<li rel="${baseUrl}/company-info/leadership-team">Our Team</li>
-					<li rel="${baseUrl}/company-info/media-kit">Media Kit</li>
-					<li rel="${baseUrl}/company-info/policy/master-terms-use">Policies and Terms of Use</li>
-					<li rel="${baseUrl}">Support Information</li>
+					<li><a href="/company-info/about-us">About Us</a></li>
+					<li><a href="/company-info/leadership-team">Our Team</a></li>
+					<li><a href="/company-info/media-kit">Media Kit</a></li>
+					<li><a href="/company-info/policy/master-terms-use">Policies and Terms of Use</a></li>
+					<li><a href="/support-training/support-info">Support Information</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3">
 				<h5>Careers</h5>
 				<ul>
-					<li rel="${baseUrl}/careers">Careers Home</li>
-					<li rel="https://careers-globalrelay.icims.com/jobs">Job Listings</li>
+					<li><a href="/company-info/careers">Careers Home</a></li>
+					<li><a href="https://careers-globalrelay.icims.com/jobs">Job Listings</a></li>
 					
 				</ul>
 			</div>
 			<div class="col-md-2">
 				<h5>Contact</h5>
 				<ul>		
-					<li rel="${baseUrl}/contact-us/demo">Request a Demo</li>
-					<li rel="${baseUrl}/company-info/contact-us">Contact Info</li>
+					<li><a href="/forms/demo/request">Request a Demo</a></li>
+					<li><a href="/company-info/contact-us">Contact Info</a></li>
 				</ul>
 			</div>
 				
