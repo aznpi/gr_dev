@@ -11913,12 +11913,12 @@ body.version-2 section#section-hero .hero-image-container {
 }
 /* line 13696, ../../../sass/internal/main.scss */
 body.version-2 section#section-hero .hero-image-container img {
-  width: 1455px;
+  width: 1300px;
 }
 /* line 13700, ../../../sass/internal/main.scss */
 body.version-2 section#section-hero .hero-content-container {
   background: #FFF;
-  min-height: 680px;
+  min-height: 580px;
   position: relative;
 }
 @media only screen and (max-width: 812px) {
