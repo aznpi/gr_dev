@@ -793,10 +793,6 @@ iframe{
 }
 .non-home-container{
 	background-color:#FFF;
-	-webkit-box-shadow:0 9px 0 0 white,0 -9px 0 0 white,12px 0 15px -4px rgba(205, 205, 205, 0.8),-12px 0 15px -4px rgba(205, 205, 205, 0.8);
-	-moz-box-shadow:0 9px 0 0 white,0 -9px 0 0 white,12px 0 15px -4px rgba(205, 205, 205, 0.8),-12px 0 15px -4px rgba(205, 205, 205, 0.8);
-	box-shadow:0 9px 0 0 white,0 -9px 0 0 white,12px 0 15px -4px rgba(205, 205, 205, 0.8),-12px 0 15px -4px rgba(205, 205, 205, 0.8);
-	padding:0 30px 0 30px;
 	
 	.top-banner{
 	
@@ -2941,7 +2937,7 @@ div.project-info:after {
 }*/
 #main-container{
 	
-	margin-top:127px;
+	margin-top:180px;
 	
 	&.full{
 	
