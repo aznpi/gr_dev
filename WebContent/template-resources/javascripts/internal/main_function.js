@@ -404,8 +404,10 @@ $(document).ready(function(){
     $(window).scroll(function() {
       if ($(document).scrollTop() > 100) {
         $('.main-header-inner-container').addClass('shrink');
+		 $('.top-info-banner').hide();
       } else {
         $('.main-header-inner-container').removeClass('shrink');
+		$('.top-info-banner').show();
       }
     });
     

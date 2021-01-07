@@ -26,7 +26,9 @@
 								</div>
 							</div>
 							<div class="col-md-7 hero-image-container">
-								<img src="${baseUrl}/template-resources/images/internal/background/hero_gr_message_girl_laptop.png" width="100%"> 
+								<div class="img-gradient">
+									<img src="${baseUrl}/template-resources/images/internal/background/hero_laptop_girl.jpg" width="100%" alt="Global Relay Message Laptop Girl"> 
+								</div>
 							</div>
 						</div>
 					</div>
@@ -35,7 +37,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<h4>Trusted by hundreds of organisations</h4>
+								<h4>Trusted by thousands of organisations</h4>
 								<ul>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Blackrock.png" alt="BlackRock"> </li>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Ares.png" alt="Ares"> </li>

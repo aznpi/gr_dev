@@ -13542,6 +13542,7 @@ body{
 				background-color: #3DAEBE;
 			}
 			&#section-demo{
+				padding:80px 0 30px; 
 				h2{
 					color:#FFF;
 				}
@@ -13661,7 +13662,7 @@ body{
 				}
 				.hero-image-container{
 					position: absolute;
-				    right: 400px;
+				    right: 0px;
 				    top: 0;
 					transition:.5s;
 				    z-index: -1;
@@ -13683,23 +13684,37 @@ body{
 					/* Large devices (laptops/desktops, 992px and up) */
 					@media only screen and (min-width: 992px) {
 						display:block;
-						right:750px
+						right:100px
 					}
 					
 					/* Extra large devices (large laptops and desktops, 1200px and up) */
 					@media only screen and (min-width: 1200px) {
 						display:block;
-						right:400px;
+						right:0px;
 					}
 					
+					.img-gradient{
+						&:after {
+						  content:'';
+						  position:absolute;
+						  left:10px; top:0;
+						  width:300%; height:100%;
+						  display:inline-block;
+						  background: rgb(255,255,255);
+							background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 43%, rgba(252, 254, 254, 0.65646) 46.5%, rgba(251, 253, 253, 0.946) 48.2%, rgba(249, 251, 251, 0.995) 49%, #fcfcfc 100%);
+							background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 43%, rgba(252, 254, 254, 0.65646) 46.5%, rgba(251, 253, 253, 0.946) 48.2%, rgba(249, 251, 251, 0.995) 49%, #fcfcfc 100%);
+							background: linear-gradient(90deg, rgba(255, 255, 255, 0) 43%, rgba(252, 254, 254, 0.65646) 46.5%, rgba(251, 253, 253, 0.946) 48.2%, rgba(249, 251, 251, 0.995) 49%, #fcfcfc 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#fcfcfc",GradientType=1);
+													}
+					}
 
 					img{
-						width:1300px;
+						width:1000px;
 					}
 				}
 				.hero-content-container{
 					background:#FFF;
-					min-height:580px;
+					min-height:530px;
 					position:relative;
 					
 					
