@@ -544,8 +544,6 @@ $(document).ready(function(){
     	if(infoContainer.is(':visible')){
     		
     		
-    		
-    		
     		if(relVal != targetRelVal){
     			
     			$(redPointerClass).hide();

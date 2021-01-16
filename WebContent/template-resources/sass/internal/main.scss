@@ -8087,6 +8087,19 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 
 .dropdown-container{
 	
+	&.career{
+		.caption-container{
+			bottom:-11px !important;
+		}
+		.red-pointer{
+			bottom:-26px;
+		}
+	}
+	
+	.col-md-4{
+		margin-bottom:30px;
+	}
+	
 	h4{
 	
 		font-size: 20px !important;
@@ -8349,6 +8362,11 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 			height:215px;
 			position:relative;
 			width:100%;
+			
+		img{
+			width:100%;
+			
+		}	
 			
 		dl{
 		

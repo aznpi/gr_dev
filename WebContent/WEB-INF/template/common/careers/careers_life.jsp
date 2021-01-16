@@ -15,7 +15,7 @@
 			<%@ include file="../../includes/header.jsp" %>
 			<div id="main-container" class="container">
 			
-				<div id="main-content-container" class="row non-home-container dropdown-container">
+				<div id="main-content-container" class="row non-home-container dropdown-container career">
 				
 					<div class="row">
 						<div class="col-md-12">
@@ -318,21 +318,19 @@
 					</div>
 					<div class="row">
 					
-							<div class="col-md-3">
-								<div class="main-image" id="img-testimonial-1-sm">
+							<div class="col-md-4">
+								<div class="main-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_Angel-Kim.png" class="img-responsive" alt="Angel Kim" /> 
 									<dl class="caption-container" rel="1">
-								   		<dt><h4>Lekabari Nghana</h4></dt>
-								   		<dd><h5>Software Security Analyst</h5></dd>
+								   		<dt><h4>Angel Kim</h4></dt>
+								   		<dd><h5>Project Manager</h5></dd>
 								   		<dd class="more-info">
 									   		<div class="drop-info-container">
-									   			<div class="col-md-4">
-									   				<div class="profile-img" id="img-testimonial-1-lg"></div>
-									   			</div>
-									   			<div class="col-md-8">
-									   				<h3>Lekabari Nghana - Software Security Analyst</h3>
+									   			<div>
+									   				<h3>Angel Kim</h3>
+									   				<h4>Project Manager</h4>
 									   				<div class="testimonial-description">
-									   					<p>""Global Relay is the place to be! Talk about a company with a bright future. It is constantly growing its technology and services. Global Relay focuses on quality. This can be seen in the variety of our products. The company's rich culture allows for a friendly, fun, and interactive environment that provides a comfortable place for employees to be productive. And the office’s open-space concept means you don’t only interact with your team. You also get to meet people in other teams and appreciate their contribution to the company."</p>
-									   					<p>"At Global Relay, employee efforts are rewarded and celebrated. Team building events that allow team members to get to know each other more personally and work together more effectively are sponsored and encouraged by the company. Free breakfast, snacks, hot beverages, and subsidized lunch are also provided. Global Relay not only focuses on the company’s growth but also on the community. You will get opportunities to give back to your community by participating in community outreach programs. More specifically, you are sure to grow professionally because the company is interested in your development. Come see for yourself!"</p>
+									   					<p>"My name is Angel Kim and I am a project manager with the Major Accounts Project Management team at Global Relay. My main responsibility is onboarding new customers with our industry-leading solutions. In this role, I have had the opportunity to work with some of the world’s leading financial institutions and technology companies. What I love about Global Relay is its people and culture. I am proud to be part of a close-knitted team that spans the globe: Canada, United States, and the United Kingdom. Having worked internationally for over a decade and returning to Vancouver, I cannot be more pleased with my decision to join Global Relay."</p>
 	
 													</div>
 									   			</div>
@@ -343,81 +341,132 @@
 								</div>
 								<div class="red-pointer"></div>
 							</div>
-						<div class="col-md-3">
-							<div class="main-image" id="img-testimonial-2-sm">
-								<dl class="caption-container" rel="2">
-							   		<dt><h4>Nakisa Abbasi</h4></dt>
-							   		<dd><h5>QA Analyst</h5></dd>
-							   		<dd class="more-info">
-								   		<div class="drop-info-container">
-								   			<div class="col-md-4">
-								   				<div class="profile-img" id="img-testimonial-2-lg"></div>
-								   			</div>
-								   			<div class="col-md-8">
-								   				<h3>Nakisa Abbasi - QA Analyst</h3>
-								   				<div class="testimonial-description">
-								   					<p>"Global Relay is an outstanding company with an amazing team culture, extravagant company events, and a wonderful office. Everyone is friendly, smart, and very fun to work with. Working with my team members always provides me an interesting experience throughout the day. In addition, we usually end up establishing better bonds with each other over some of the corporate events held at Global Relay. Not only does the office have a sociable open office setup, it is also conveniently located near many restaurants, facilities, and the Skytrain station."</p>
-								   					<p>"I'm extremely happy to be working with a company that also does lots of charity work. Every couple of months, the company invites the employees to gather voluntarily and prepare food for the Ronald McDonald House in BC Children Hospital."</p>
-
-												</div>
-								   			</div>
-								   		</div>	
-							   		</dd>
-							   		<div class="arrow-anchor"></div>
-							   	</dl>
+						<div class="col-md-4">
+								<div class="main-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_Gary-Smith.png" class="img-responsive" alt="Gary Smith" /> 
+									<dl class="caption-container" rel="2">
+								   		<dt><h4>Gary Smith</h4></dt>
+								   		<dd><h5>Software Developer</h5></dd>
+								   		<dd class="more-info">
+									   		<div class="drop-info-container">
+									   			<div>
+									   				<h3>Gary Smith</h3>
+									   				<h4>Software Developer</h4>
+									   				<div class="testimonial-description">
+									   					<p>"I enjoy working at Global Relay because I have the opportunity to use recent innovative technologies. The team structures are quite flat and regardless of age and past experience, people are respected based on their communication, contributions and effort. I’ve recently started participating in the Weekly Challenges arranged by our social events coordinator and they’re addictive. There is a good sense of community and teams make the effort to collaborate frequently to solve problems."</p>
+	
+													</div>
+									   			</div>
+									   		</div>	
+								   		</dd>
+								   		<div class="arrow-anchor"></div>
+								   	</dl>
+								</div>
+								<div class="red-pointer"></div>
 							</div>
-							<div class="red-pointer"></div>
-						</div>
-						<div class="col-md-3">
-							<div class="main-image" id="img-testimonial-3-sm">
-								<dl class="caption-container" rel="3">
-							   		<dt><h4>Albert Kurniadi</h4></dt>
-							   		<dd><h5>Data Migration Specialist</h5></dd>
-							   		<dd class="more-info">
-							   			<div class="drop-info-container">
-								   			<div class="col-md-4">
-								   				<div class="profile-img" id="img-testimonial-3-lg"></div>
-								   			</div>
-								   			<div class="col-md-8">
-								   				<h3>Albert Kurniadi - Data Migration Specialist</h3>
-								   				<div class="testimonial-description">
-								   					<p>"Global Relay is an enjoyable, dynamic, and inclusive workplace. I have seen a lot of positive and exciting growth over the 4 years I have been with the company - from welcoming plenty of new faces, to gaining our own personal chef, to further building our international presence. Working on the Data Services team has given me plenty of challenging and diverse work that has allowed me to build both my technical and people skills."</p>
-								   					<p>"No one day has ever been the same, and I have really enjoyed the unpredictability of the work and the opportunities I have to pursue my interests. I started as a junior admin in Vancouver. Over the last four years, I have assumed a number of roles - from trainer to team lead, and now a more business-focused role in the London office."</p>
-												</div>
-								   			</div>
-								   		</div>	
-							   		</dd>
-							   		<div class="arrow-anchor"></div>
-							   	</dl>
+						<div class="col-md-4">
+								<div class="main-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_Jill-Lee.png" class="img-responsive" alt="Jill Lee" /> 
+									<dl class="caption-container" rel="3">
+								   		<dt><h4>Jill Lee</h4></dt>
+								   		<dd><h5>Message Community Specialist</h5></dd>
+								   		<dd class="more-info">
+									   		<div class="drop-info-container">
+									   			<div>
+									   				<h3>Jill Lee</h3>
+									   				<h4>Message Community Specialist</h4>
+									   				<div class="testimonial-description">
+									   					<p>"Global Relay encompasses all the best attributes when looking to work for a company - community, collaboration and innovation. Working on the Message team in Business Development, I have been given the chance to work in an entrepreneurial mindset in a larger corporation, all while being autonomous yet supported by my fellow peers and managers. Global Relay has a strong family atmosphere, we work as a team to achieve our goals. And you can always connect with coworkers at a Global Relay event whether it be a beer in the lounge, a team dinner, or hockey game!"</p>
+	
+													</div>
+									   			</div>
+									   		</div>	
+								   		</dd>
+								   		<div class="arrow-anchor"></div>
+								   	</dl>
+								</div>
+								<div class="red-pointer"></div>
 							</div>
-							<div class="red-pointer"></div>
 						</div>
-						<div class="col-md-3">
-							<div class="main-image" id="img-testimonial-4-sm">
-								<dl class="caption-container" rel="4">
-							   		<dt><h4>Inna Stetsiak</h4></dt>
-							   		<dd><h5>Product Manager</h5></dd>
-							   		<dd class="more-info">
-							   			<div class="drop-info-container">
-								   			<div class="col-md-4">
-								   				<div class="profile-img" id="img-testimonial-4-lg"></div>
-								   			</div>
-								   			<div class="col-md-8">
-								   				<h3>Inna Stetsiak - Product Manager</h3>
-								   				<div class="testimonial-description">
-								   					<p>"In the past 4 years with Global Relay, I have worked as both a Lean Agile Project Manager and Product Manager. In these roles, I have had an opportunity to work with possibly all different departments within Global Relay, and with several development teams in particular. Every year has brought new and challenging goals, and we have grown and improved such much in so many areas!"</p>
-								   					<p>"To deliver the best possible solutions to the market, we always use cutting-edge technologies and develop customer-oriented, secure, and highly scalable services. Global Relay is an encouraging, diversified, and flexible workplace with great skillful people and awesome teamwork. This is what truly makes it different and makes us proud of the work we do."</p>
-
-
-												</div>
-								   			</div>
-								   		</div>	
-							   		</dd>
-							   		<div class="arrow-anchor"></div>
-							   	</dl>
+						<div class="row more-info-container">
+							<div class="col-md-12">
 							</div>
-							<div class="red-pointer"></div>
+							<div class="close-container">
+								<a class="close-target-info">close x</a>
+							</div>
 						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="main-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_Bhavani-Magam.png" class="img-responsive" alt="Bhavani Magam" /> 
+									<dl class="caption-container" rel="4">
+								   		<dt><h4>Bhavani Magam</h4></dt>
+								   		<dd><h5>QA</h5></dd>
+								   		<dd class="more-info">
+									   		<div class="drop-info-container">
+									   			<div>
+									   				<h3>Bhavani Magam</h3>
+									   				<h4>QA</h4>
+									   				<div class="testimonial-description">
+									   					<p>"I was first attracted to Global Relay due to their use of new technologies for development and have since come to the conclusion that it is a great place to work. As a QA, I ensure application quality before it is released to clients. In doing this task, I am supported by my colleagues who are both driven and collaborative. They are also friendly and welcoming which makes all the difference. Global Relay has also allowed me to balance my work and personal life, thanks to their flexibility, openness and understanding."</p>
+	
+													</div>
+									   			</div>
+									   		</div>	
+								   		</dd>
+								   		<div class="arrow-anchor"></div>
+								   	</dl>
+								</div>
+								<div class="red-pointer"></div>
+							</div>
+							<div class="col-md-4">
+								<div class="main-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_Jothish-John.png" class="img-responsive" alt="Jothish John" /> 
+									<dl class="caption-container" rel="5">
+								   		<dt><h4>Jothish John</h4></dt>
+								   		<dd><h5>UX Designer/DesignOps</h5></dd>
+								   		<dd class="more-info">
+									   		<div class="drop-info-container">
+									   			<div>
+									   				<h3>Jothish John</h3>
+									   				<h4>UX Designer/DesignOps</h4>
+									   				<div class="testimonial-description">
+									   					<p>"I am delighted to work for Global Relay, where the value of design is acknowledged. It is pleasing to know the company is striving to move forward with a design-driven mindset in a positive and collaborative environment.</p>
+									   					<p>As part of a tight-knit UX team that is gifted and diverse, I get to partner with stakeholders and talented product and engineering teams.</p>
+									   					<p>It is exciting and enjoyable to collaborate cross-functionally to design our products to be effortless and meaningful for the users while ensuring they align with business strategies and objectives."</p>
+	
+													</div>
+									   			</div>
+									   		</div>	
+								   		</dd>
+								   		<div class="arrow-anchor"></div>
+								   	</dl>
+								</div>
+								<div class="red-pointer"></div>
+							</div>
+							<div class="col-md-4">
+								<div class="main-image">
+									<img src="${baseUrl}/template-resources/images/internal/background/img_Robert-Hawk.png" class="img-responsive" alt="Robert Hawk" /> 
+									<dl class="caption-container" rel="6">
+								   		<dt><h4>Robert Hawk</h4></dt>
+								   		<dd><h5>Information Security</h5></dd>
+								   		<dd class="more-info">
+									   		<div class="drop-info-container">
+									   			<div>
+									   				<h3>Robert Hawk</h3>
+									   				<h4>Information Security</h4>
+									   				<div class="testimonial-description">
+									   					<p>"Global Relay is a Vancouver based international company with opportunity to work in a fast passed and dynamic environment.  Senior management provide clear vision and mission in regards to the organizational direction and mandates, with opportunities to work across multiple teams, in business and technology.  The office in Gastown has an amazing lounge area with full food service at lunch times with the most amazing food.  As well, I have had great opportunities to share my knowledge and experience with my fellow coworkers, collaborating on personal and professional projects.  Based on my experience, the most unique aspect of Global Relay culture is the Gastown Grand Prix bike race."</p>
+	
+													</div>
+									   			</div>
+									   		</div>	
+								   		</dd>
+								   		<div class="arrow-anchor"></div>
+								   	</dl>
+								</div>
+								<div class="red-pointer"></div>
+							</div>
 					</div>
 					<div class="row more-info-container">
 						<div class="col-md-12">
