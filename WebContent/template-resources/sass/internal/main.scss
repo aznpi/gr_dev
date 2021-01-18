@@ -172,7 +172,8 @@ Date: October 16,2014
 
 @mixin drop-image-main($image){
 	
-	background:url('../../images/internal/background/'+$image)no-repeat;
+	background-image:url('../../images/internal/background/'+$image);
+	background-size:cover;
 }
 
 $security-img:url('../../images/internal/icons/icon_security_sprite.png');
@@ -8087,12 +8088,16 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 
 .dropdown-container{
 	
-	&.career{
+	.career{
+		
+		margin-bottom:0;
+		
 		.caption-container{
 			bottom:-11px !important;
 		}
 		.red-pointer{
-			bottom:-26px;
+			bottom:-30px;
+			height:20px;
 		}
 	}
 	

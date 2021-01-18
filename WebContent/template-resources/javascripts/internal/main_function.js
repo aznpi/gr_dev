@@ -561,6 +561,7 @@ $(document).ready(function(){
     		infoContainer.children('.col-md-12').empty().append(infoContent).attr('rel',relVal);
     		$(redPointerClass).hide();
     		redPointer.show();
+			$('.more-info-container').hide();
         	infoContainer.slideDown();
     		
     	}

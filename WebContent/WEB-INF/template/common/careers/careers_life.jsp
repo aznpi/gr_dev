@@ -15,7 +15,7 @@
 			<%@ include file="../../includes/header.jsp" %>
 			<div id="main-container" class="container">
 			
-				<div id="main-content-container" class="row non-home-container dropdown-container career">
+				<div id="main-content-container" class="row non-home-container dropdown-container">
 				
 					<div class="row">
 						<div class="col-md-12">
@@ -316,7 +316,7 @@
 							<h4>WHAT OUR EMPLOYEES ARE SAYING</h4>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row career">
 					
 							<div class="col-md-4">
 								<div class="main-image">
@@ -395,7 +395,7 @@
 								<a class="close-target-info">close x</a>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row career">
 							<div class="col-md-4">
 								<div class="main-image">
 									<img src="${baseUrl}/template-resources/images/internal/background/img_Bhavani-Magam.png" class="img-responsive" alt="Bhavani Magam" /> 
