@@ -11935,7 +11935,7 @@ div.project-info:after {
 /* line 3934, ../../sass/internal/main.scss */
 #main-content-container .caption-container .arrow-anchor, #main-content-container .caption-container .arrow-anchor-2, #main-content-container .caption-container .arrow-anchor-mobile-2 {
   background: url("../../images/internal/icons/icon_arrow_sprite.png") 0 0 no-repeat;
-  height: 11px;
+  height: 12px;
   margin: 0 !important;
   position: absolute;
   top: 15px;
