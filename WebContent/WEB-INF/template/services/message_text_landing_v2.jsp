@@ -81,7 +81,7 @@
 					                                <div class="item active">
 					                                    <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_conversations.png" class="img-responsive">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_conversations_v2.png" class="img-responsive">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#text-conversation-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -93,7 +93,7 @@
 					                                <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_starttext.png" class="img-responsive" width="90%">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_starttext_v2.png" class="img-responsive" width="90%">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#start-text-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -105,7 +105,7 @@
 					                                 <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook.png" class="img-responsive" width="90%">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook_v2.png" class="img-responsive" width="90%">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#text-phonebook-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -117,7 +117,7 @@
 					                                 <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving.png" class="img-responsive">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving_v2.png" class="img-responsive">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#message-archive-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -134,7 +134,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										            <img src="${baseUrl}/template-resources/images/internal/background/img_text_conversations.png" class="img-responsive">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_text_conversations_v2.png" class="img-responsive">
 										        </div> 
 										    </div>
 										  </div>
@@ -143,7 +143,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										          <img src="${baseUrl}/template-resources/images/internal/background/img_text_starttext.png" class="img-responsive" width="90%">
+										          <img src="${baseUrl}/template-resources/images/internal/background/img_text_starttext_v2.png" class="img-responsive" width="90%">
 										        </div> 
 										    </div>
 										  </div>
@@ -152,7 +152,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										           	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook.png" class="img-responsive" width="90%">
+										           	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook_v2.png" class="img-responsive" width="90%">
 										        </div> 
 										    </div>
 										  </div>
@@ -161,7 +161,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										           <img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving.png" class="img-responsive">
+										           <img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving_v2.png" class="img-responsive">
 										        </div> 
 										    </div>
 										  </div>

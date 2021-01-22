@@ -527,9 +527,63 @@ $(document).ready(function(){
     $('.dropdown-container .close-info').click(function(){
     	$(this).parent().slideUp().prev().find(".open-info").show();
     });
-    
+
+
+	//HR Testimonial injection
+	 $('.career .arrow-anchor-mobile-2').click(function(){
+		
+		var contentContainer = $(this).parent().parent().parent().children('div.more-info');
+		if(contentContainer.is(':visible')){
+			 contentContainer.hide();	
+		}else{
+			contentContainer.show();		
+		}
+	});
+	
+    $('.career .arrow-anchor-2').click(function(){
+	
+    	
+    	var globalTarInfo = $('.more-info-container');
+    	var infoContent = $(this).parent().parent().parent().children('div.more-info').html();
+    	var infoContainer = $(this).parent().parent().parent().parent().next('.more-info-container');
+    	var redPointerClass = '.red-pointer';
+    	var redPointer = $(this).parent().parent().next(redPointerClass);
+    	var targetInfoContainer = infoContainer.children('.col-md-12').html;
+    	var relVal = $(this).parent().attr('rel');
+    	var targetRelVal = infoContainer.children('.col-md-12').attr('rel');
+
+
+    	
+    	if(infoContainer.is(':visible')){
+    		
+    		
+    		if(relVal != targetRelVal){
+    			
+    			$(redPointerClass).hide();
+    			redPointer.show();
+    			infoContainer.children('.col-md-12').empty().append(infoContent).attr('rel',relVal);
+    			
+    		}else{
+    			
+    			$(redPointerClass).hide();
+    			infoContainer.slideUp();
+    		}
+    		
+    	}else{
+    		
+    		infoContainer.children('.col-md-12').empty().append(infoContent).attr('rel',relVal);
+    		$(redPointerClass).hide();
+    		redPointer.show();
+			$('.more-info-container').hide();
+        	infoContainer.slideDown();
+    		
+    	}
+    	
+    	
+    });
     //leadership injection 
     
+
     $('dl.caption-container .arrow-anchor').click(function(){
     	
     	var globalTarInfo = $('.more-info-container');

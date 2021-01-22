@@ -54,7 +54,7 @@
 					                                <div class="item active">
 					                                    <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_split-view.png" class="img-responsive">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_split-view_v2.png" class="img-responsive">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#split-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -66,7 +66,7 @@
 					                                <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_ios_android.png" class="img-responsive" width="90%">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_ios_android_v2.png" class="img-responsive" width="90%">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#ios-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -78,7 +78,7 @@
 					                                 <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_archiving.png" class="img-responsive">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_archiving_v2.png" class="img-responsive">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#message-archiving-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -90,7 +90,7 @@
 					                                 <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_offlinemessaging_v2.png" class="img-responsive">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_message_offlinemessaging_v3.png" class="img-responsive">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#offline-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -107,7 +107,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_split-view.png" class="img-responsive">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_split-view_v2.png" class="img-responsive">
 										        </div> 
 										    </div>
 										  </div>
@@ -116,7 +116,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_ios_android.png" class="img-responsive">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_ios_android_v2.png" class="img-responsive">
 										        </div> 
 										    </div>
 										  </div>
@@ -125,7 +125,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_archiving.png" class="img-responsive">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_archiving_v2.png" class="img-responsive">
 										        </div> 
 										    </div>
 										  </div>
@@ -134,7 +134,7 @@
 										  <div class="modal-dialog modal-screenshot">
 										    <div class="modal-content">
 										        <div class="modal-body">
-										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_offlinemessaging_v2.png" class="img-responsive">
+										            <img src="${baseUrl}/template-resources/images/internal/background/img_message_offlinemessaging_v3.png" class="img-responsive">
 										        </div> 
 										    </div>
 										  </div>

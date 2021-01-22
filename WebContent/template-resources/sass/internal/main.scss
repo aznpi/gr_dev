@@ -3889,7 +3889,7 @@ div.project-info:after {
 				height: 133px;
 			}
 					
-			.arrow-anchor{
+			.arrow-anchor,.arrow-anchor-2,.arrow-anchor-mobile-2{
 						
 				background-position: -29px 0;
 			}
@@ -3931,7 +3931,7 @@ div.project-info:after {
 		
 		}
 		
-		.arrow-anchor{
+		.arrow-anchor,.arrow-anchor-2,.arrow-anchor-mobile-2{
 		
 			background:url("../../images/internal/icons/icon_arrow_sprite.png") 0 0 no-repeat;
 			height: 11px;
@@ -3941,6 +3941,9 @@ div.project-info:after {
 			right:10px;
 			width: 20px;
 		
+		}
+		.arrow-anchor-mobile-2{
+			display:none;
 		}
 	}
 	
@@ -8382,7 +8385,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 		
 		.caption-container{
 		
-			.arrow-anchor{
+			.arrow-anchor,.arrow-anchor-2,.arrow-anchor-mobile-2{
 			
 				cursor:pointer;
 			}
@@ -8400,6 +8403,11 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 			}
 			
 		}
+	}
+	
+	div.more-info{
+		display:none;
+		padding:20px;
 	}
 	.red-pointer{
 	
@@ -10241,9 +10249,12 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	 #main-content-container{
 	 	.main-image{
 	 		.caption-container{
-	 			.arrow-anchor{
+	 			.arrow-anchor,.arrow-anchor-2{
 	 				display:none;
 	 			}
+				.arrow-anchor-mobile-2{
+					display:block;
+				}
 	 		}
 	 	}
 	 
@@ -13601,6 +13612,8 @@ body{
 					left: -350px;
 				    position: absolute;
 				    top: -56px;
+					z-index:-1;
+					
 					@media only screen and (max-width:812px) {
 						display:none;
 					}

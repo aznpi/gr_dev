@@ -98,7 +98,7 @@
 								<div class="content">
 									<h2>Global Relay Message is the leading secure and compliant messaging and collaboration app</h2>
 									<div class="description">
-										<p>Global Relay Message enables your entire organization to collaborate both internally and across your industry, confident that compliance, privacy, and security tools are built into the platform.</p>
+										<p>Global Relay Message enables your entire organisation to collaborate both internally and across your industry, confident that compliance, privacy, and security tools are built into the platform.</p>
 									</div>
 									<button class="btn-2 btn-red-outline" rel="/gr-services/message">LEARN MORE</button>
 								</div>
