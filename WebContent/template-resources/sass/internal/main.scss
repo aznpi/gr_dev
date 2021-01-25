@@ -9358,7 +9358,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 		
 		&.modal-screenshot{
 		
-			width:1200px;
+			width:800px;
 		}
 	}
 	
@@ -13561,6 +13561,79 @@ body{
 			}
 		}
 		
+		.migration-cloud{
+			
+			#section-simple{
+				background-color:#3DAEBE;
+				color:#FFF;
+				position:relative;
+				
+				h2,h3,h4,h5{
+					color:#FFF;
+				}
+				
+				.bg-image-container{
+					   width: 800px;
+					    position: absolute;
+					    right: -100px;
+					    top: 60px;
+				   
+					@media only screen and (max-width: 1200px){
+						display:none;
+					}
+				}
+			}
+			#section-reduce{
+				padding-top:0;
+				padding-bottom:0;
+				min-height:700px;
+				
+				.title-container{
+					padding-top:19%;
+					
+					.content-container{
+						margin-top:60px;
+						@media only screen and (min-width: 1200px){
+							white-space:nowrap;
+						}
+						
+					}
+				}
+				
+				.bg-image-container{
+					width: 900px;
+				    position: absolute;
+				    right: 0;
+				    z-index: -1;
+					@media only screen and (max-width: 1200px){
+						display:none;
+					}
+				}
+			}
+			#section-hero{
+				.hero-image-container{
+					img{
+						width:900px;
+					}
+				}
+				.hero-content-container{
+					
+					min-height:700px;
+					
+					@media only screen and (max-width: 812px){
+						
+						min-height:700px;
+						
+					}
+					
+					.hero-content{
+						bottom:80px;
+					}
+				}
+				
+				
+			}	
+		}
 		section{
 			&:not(#section-hero){
 				padding:100px 0;
@@ -13576,6 +13649,7 @@ body{
 			&.bg-teal{
 				background-color: #3DAEBE;
 			}
+			
 			&#section-demo{
 				padding:80px 0 30px; 
 				h2{
@@ -13662,6 +13736,10 @@ body{
 			}
 			&#section-trusted{
 				padding:50px 0;
+				
+				h5{
+					font-weight:300;
+				}
 				ul{
 					display: flex;
 				    align-items: center; /* Default */
