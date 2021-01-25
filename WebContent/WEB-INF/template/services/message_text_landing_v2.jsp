@@ -64,10 +64,10 @@
 										</div>
 										<div id="title-bottom">
 											<ul id="ui-list-screenshot" class="carousel-indicators">
-					                            <li data-target="#red-angle-carousel" data-slide-to="0" class="active"> <span>Improved Desktop Client Interface</span></li>
-					                            <li data-target="#red-angle-carousel" data-slide-to="1"><span>Message for iOS and Android</span></li>
-					                            <li data-target="#red-angle-carousel" data-slide-to="2"><span>Integrated Compliant Text Archiving</span></li>
-					                            <li data-target="#red-angle-carousel" data-slide-to="3"><span>Real-time Client Synchronization</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="0" class="active"> <span>Text from Desktop Client</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="1"><span>iOS and Android Mobile Apps</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="2"><span>Start Texts with your Phone’s Contacts</span></li>
+					                            <li data-target="#red-angle-carousel" data-slide-to="3"><span>Integrated Compliant Archiving</span></li>
 					                        </ul>
 											
 										</div>
@@ -105,7 +105,7 @@
 					                                 <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook_v2.png" class="img-responsive" width="90%">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving_v2.png" class="img-responsive" width="90%">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#text-phonebook-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
@@ -117,7 +117,7 @@
 					                                 <div class="item">
 					                                      <div class="view">
 					                                        <div>
-					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving_v2.png" class="img-responsive">
+					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook_v2.png" class="img-responsive">
 					                                        	<div class="zoom-container" data-toggle="modal" data-target="#message-archive-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
