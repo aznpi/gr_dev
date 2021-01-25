@@ -106,7 +106,7 @@
 					                                      <div class="view">
 					                                        <div>
 					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_txt_message_archiving_v2.png" class="img-responsive" width="90%">
-					                                        	<div class="zoom-container" data-toggle="modal" data-target="#text-phonebook-screenshot">
+					                                        	<div class="zoom-container" data-toggle="modal" data-target="#message-archive-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
 																	</div>
@@ -118,7 +118,7 @@
 					                                      <div class="view">
 					                                        <div>
 					                                        	<img src="${baseUrl}/template-resources/images/internal/background/img_text_phonebook_v2.png" class="img-responsive">
-					                                        	<div class="zoom-container" data-toggle="modal" data-target="#message-archive-screenshot">
+					                                        	<div class="zoom-container" data-toggle="modal" data-target="#text-phonebook-screenshot">
 																	<div class="circle-container">
 																		<i class="fas fa-search-plus"></i>
 																	</div>
