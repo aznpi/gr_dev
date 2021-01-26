@@ -75,7 +75,7 @@
 										<div class="description">
 											<p>An organization’s intellectual capital resides in its electronic communications. These communications document your daily business operations and who said what, when. When you face an audit, subpoena, or other investigation, this information can be critical to your defence.</p>
 										</div>
-										<button class="btn-2 btn-red-outline" rel="">LEARN MORE</button>
+										<button onclick="window.location.href='${baseUrl}/services/migration';" class="btn-2 btn-red-outline" rel="">LEARN MORE</button>
 									</div>
 								</div>
 								<div class="col-md-6">
