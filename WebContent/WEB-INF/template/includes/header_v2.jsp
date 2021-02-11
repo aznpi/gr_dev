@@ -10,7 +10,7 @@
 							<a href="#">Login</a>
 							<div id="menu">
 								<div id="arrow"></div>
-								<div class="link" rel="https://message-sign-up.globalrelay.com/" style="padding-right:5px">
+								<div class="link" rel="https://fe1-gas-mbsnap1-nvan.login.dev-globalrelay.net/main/grPortal/getToken?svcUrl=https://lb-msg-provisioning-ui-qa.apps.ocp-dev-nvan.dev-globalrelay.net/auth/callback/invite-and-download" style="padding-right:5px">
 								    <div>
 									    <div class="title">Global Relay Message</div>
 									    <div class="description">Secure, Compliant Messaging and collaboration</div> 
