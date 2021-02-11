@@ -42,7 +42,7 @@
 					                            <li data-target="#red-angle-carousel" data-slide-to="2"><i class="fas fa-chevron-circle-right"></i> <span>Integrated Compliant Text Archiving</span></li>
 					                            <li data-target="#red-angle-carousel" data-slide-to="3"><i class="fas fa-chevron-circle-right"></i> <span>Real-time Client Synchronization</span></li>
 					                        </ul>
-											<button class="btn-white" rel="https://info.globalrelay.com/contact-a-specialist">SIGN UP NOW</button>
+											<button class="btn-white" rel="https://fe1-gas-mbsnap1-nvan.login.dev-globalrelay.net/main/grPortal/getToken?svcUrl=https://lb-msg-provisioning-ui-qa.apps.ocp-dev-nvan.dev-globalrelay.net/auth/callback/invite-and-download">SIGN UP NOW</button>
 											<span>Secure. Compliant. Free.</span>
 										</div>
 											  

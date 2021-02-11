@@ -23,6 +23,13 @@
 						<button class="btn-red">Login <i class="fa fa-arrow-circle-right"></i></button>
 						<div id="menu">
 							<div id="arrow"></div>
+							<div class="link" rel="https://fe1-gas-mbsnap1-nvan.login.dev-globalrelay.net/main/grPortal/getToken?svcUrl=https://lb-msg-provisioning-ui-qa.apps.ocp-dev-nvan.dev-globalrelay.net/auth/callback/invite-and-download" style="padding-right:5px">
+							    <div>
+								    <div class="title">Global Relay Message</div>
+								    <div class="description">Secure, Compliant Messaging and collaboration</div> 
+							    </div>
+							    <img src="${baseUrl}/template-resources/images/internal/icons/icon_message_gray_small.png" width="20px">
+							</div>
 							<div class="link" rel="https://archiver.globalrelay.com/">
 							    <div>
 								    <div class="title">Global Relay Archive &amp; Compliance Reviewer</div>
