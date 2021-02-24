@@ -164,33 +164,6 @@
 			</div>
 		
 		<%@ include file="../includes/footer_v2.jsp" %>
-		
-		
-	<script src="${baseUrl}/template-resources/javascripts/external/slick/slick.js"></script>
-
-	<script>
-		$('.main-slider').slick({
-			autoplay:true,
-		    autoplaySpeed:5000,
-		    speed:600,
-		    slidesToShow:1,
-		    slidesToScroll:1,
-		    pauseOnHover:false,
-		    dots:false,
-		    pauseOnDotsHover:true,
-		    cssEase:'linear',
-		    arrows:true,
-		   // fade:true,
-		    draggable:false
-		  });
-		
-		$('.main-slider').hover(function(){
-			
-			$('.slick-arrow',this).css({'visibility':'visible','opacity':'1'});
-		},function(){
-			$('.slick-arrow',this).css({'visibility':'hidden','opacity':'0'});
-		})
-	</script>
 	
 	
 	</body>
