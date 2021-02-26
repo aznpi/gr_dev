@@ -305,8 +305,8 @@
 							</div>
 							
 							<div class="col-md-6 content-container">
-								<h4>Text for Global Relay Message</h4>
-								<p>Global Relay's instant messaging/collaboration system:</p>
+								<h4>Text Message Capture</h4>
+								<p>Global Relay’s Compliant Virtual Phone:</p>
 								<ul class="description">
 									<li>Streamlines operations and compliantly captures text messages from corporate and employee-owned devices</li>
 									<li>Separates business from personal texts, syncs address book contacts, and allows sharing of files/photos from web, desktop, and mobile apps</li>
