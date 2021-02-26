@@ -26,9 +26,9 @@
 								</div>
 							</div>
 							<div class="col-md-6 hero-image-container">
-								<div class="img-gradient">
+								
 									<img src="${baseUrl}/template-resources/images/internal/background/hero_government.png" width="100%" alt="Global Relay Government"> 
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -242,9 +242,9 @@
 								
 								<ul>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_City-of-Loveland.png" alt="City of Loveland"> </li>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Florida-chamber-of-commerce.png" alt="Florida Chamber of Commerce"> </li>
+									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Florida-chamber-of-commerce.png" width="200px" alt="Florida Chamber of Commerce"> </li>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Salem-Township.png" alt="Salem Township"> </li>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Town-of-Pilot-Mountain.png" alt="Town of Pilot Mountain"> </li>								
+									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Town-of-Pilot-Mountain.png" width="100px" alt="Town of Pilot Mountain"> </li>								
 								</ul>
 							</div>
 						</div>
@@ -273,7 +273,7 @@
 								<div class="row icon-data">
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_360.svg" alt="Office 360"></div>
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_exchange.svg" alt="Microsoft Exchange"></div>
-									<div class="col-sm-2"><embed src="${baseUrl}/template-resources/images/internal/icons/svg/icon_gmail.svg" alt="Gmail"></div>
+									<div class="col-sm-2"><embed src="${baseUrl}/template-resources/images/internal/icons/svg/icon_gmail.svg" width="45px" alt="Gmail"></div>
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_iOS.svg" alt="iOS"></div>
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_Android_Robot.svg" alt="Android"></div>
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_slack.svg" alt="Slack"></div>
@@ -284,7 +284,7 @@
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_teams.svg" alt="Teams"></div>
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_twitter.svg" width="53px;" alt="Twitter"></div>
 									<div class="col-sm-2"><img src="${baseUrl}/template-resources/images/internal/icons/svg/icon_skype.svg" alt="Skype"></div>
-									<div class="col-sm-2"><embed src="${baseUrl}/template-resources/images/internal/icons/svg/icon_zoom.svg" alt="Zoom"></div>
+									<div class="col-sm-2"><embed src="${baseUrl}/template-resources/images/internal/icons/svg/icon_zoom.svg" width="45px"  alt="Zoom"></div>
 								</div>
 								<button onclick="window.location.href='/';" class="btn-2 btn-red-outline" rel="">LEARN MORE</button>
 							</div>
