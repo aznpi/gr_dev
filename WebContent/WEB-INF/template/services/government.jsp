@@ -241,7 +241,7 @@
 							<div class="col-md-12">
 								
 								<ul>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_City-of-Loveland.png" alt="City of Loveland"> </li>
+									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_City-of-Loveland.png" width="125px" alt="City of Loveland"> </li>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Florida-chamber-of-commerce.png" width="200px" alt="Florida Chamber of Commerce"> </li>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Salem-Township.png" alt="Salem Township"> </li>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Town-of-Pilot-Mountain.png" width="100px" alt="Town of Pilot Mountain"> </li>								
