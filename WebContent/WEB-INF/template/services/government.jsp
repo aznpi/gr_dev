@@ -342,6 +342,12 @@
 									<p> Populates Data Lake or incumbent archive by capturing, converting, and delivering 60+ data types via SMTP or SFTP</p>
 									<a href="" class="red-pointer">Download Datasheet ></a>
 								</div>
+								<div class="description-container"> 
+									<div class="footnote">
+										<span class="bold" style="font-size:12px;">Disclaimer:</span> All trademarks are the property of their respective owners. No implication of endorsement by or affiliation with these third parties is intended.
+									</div>
+								</div>
+								
 							</div>
 							
 							<div class="col-md-6 content-container process">
@@ -432,7 +438,7 @@
 									<img src="${baseUrl}/template-resources/images/internal/background/img_hand_users.png" width="100%" alt="Collaboration Platforms: How to Reduce Risk & Enable eDiscovery"> 
 								</div>
 								<div class="content-container">
-									<p class="cat-title">EBOOK</p>
+									<p class="cat-title">eBook</p>
 									<p class="bold">Collaboration Platforms: How to Reduce Risk & Enable eDiscovery</p>
 									<p>Learn about the challenges that collaboration platforms can create for the information governance policies of firms – and the solutions that can help reduce them.</p>
 									<a href="/" class="red-pointer">Download ></a>
