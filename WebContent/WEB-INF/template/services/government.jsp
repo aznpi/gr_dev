@@ -74,7 +74,7 @@
 							 		<i></i>
 									<dl>
 										 <dt>Budget &amp; Resources</dt>
-										 <dd>You are than familiar with the proverbial question from management, “So, what does it cost?” The ability to deliver more with less is mission critical for lean IT teams.</dd>
+										 <dd>You are more than familiar with the proverbial question from management: “So, what does it cost?” The ability to deliver more with less is mission critical for lean IT teams.</dd>
 									</dl>
 								</div>
 							</div>
@@ -112,7 +112,7 @@
 							 		<i></i>
 									<dl>
 										 <dt>Implementation </dt>
-										 <dd>Signed-up for a new service and now left to fend for yourself with nothing but how-to documents? You need dedicated vendor expertise & resources to see the project through to completion</dd>
+										 <dd>Signed up for a new service and now left to fend for yourself with nothing but how-to documents? You need dedicated vendor expertise & resources to see the project through to completion</dd>
 									</dl>
 								</div>
 							</div>
@@ -126,7 +126,7 @@
 								<h5>Data Sheet</h5>
 								<h2>Global Relay Archive for Government</h2>
 								<div class="content-container">
-									<h4>Electronic Records Management Made Simple</h4>
+									
 									<p>Find out how government organizations affordably capture and retain their e-communications and rapidly respond to public records requests, investigations and litigation demands – all from a single, unified platform.</p>
 								</div>
 								<button onclick="window.location.href='/';" class="btn-2 btn-white-outline" rel="">DOWNLOAD</button>
@@ -322,7 +322,7 @@
 						<div class="row">
 							<div class="col-md-6 content-container">
 								<h4> Data Migration Services</h4>
-								<p>Global Relay’s data migration tools and services facilitate transitioning from legacy platforms to Global Relay Archive.</p>
+								<p>Global Relay’s data migration tools and services facilitate transitioning from legacy platforms to Global Relay Archive</p>
 								<button onclick="window.location.href='/';" class="btn-2 btn-red-outline" rel="">LEARN MORE</button>
 								<div class="description-container">
 									<span class="bold">Global Relay Extractor for Enterprise Vault</span>
