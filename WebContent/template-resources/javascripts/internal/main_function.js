@@ -709,7 +709,7 @@ $(document).ready(function(){
 		}
 		
 		$cookiewarning.on("click", function() {
-				createCookie(sCookieName, 1, 0)
+				createCookie(sCookieName, 1, 1)
 				setCookieWarning(false);
 		});
 		
@@ -723,10 +723,7 @@ $(document).ready(function(){
 				setCookieWarning(false);
 		})
 		
-		$(window).on("unload",function () {
-		    // Remove the cookie
-			eraseCookie(sCookieName);
-		});
+	
    
 });
 
