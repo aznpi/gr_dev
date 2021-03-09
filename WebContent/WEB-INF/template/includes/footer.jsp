@@ -157,32 +157,3 @@
     </div>
 </div>
 
-<!-- Social Media Widget -->
-<div id="social-widget-container">
-
-	<div id="linkedin-container" class="fa-2x" rel="https://www.linkedin.com/company/143687?trk=cws-btn-overview-0-0" tar="social">
-	  <i class="fab fa-linkedin"></i>
-	  <span>Connect with us on LinkedIn</span>
-	</div>
-	<div id="twitter-container" class="fa-2x" rel="https://twitter.com/globalrelay" tar="social">
-	  <i class="fab fa-twitter"></i>
-	  <span>Follow us on Twitter</span>
-	</div>
-	<div id="facebook-container" class="fa-2x" rel="http://facebook.com/globalrelay" tar="social">
-	  <i class="fab fa-facebook-f"></i>
-	  <span>Like us on Facebook</span>
-	</div>
-	<div id="phone-container" class="btn-contact-us fa-2x" rel="" tar="global">
-	  <i class="fa fa-envelope"></i>
-	  <span>Contact a specialist</span>
-	</div>
-	<div id="demo-container" class="fa-2x" rel="https" tar="global">
-	  <i class="fa fa-laptop"></i>
-	  <span>Request a demo</span>
-	</div>
-	<div id="quote-container" class="fa-2x" rel="${baseUrl}/contact-us/quote" tar="global">
-	  <i class="fa fa-tag"></i>
-	  <span>Request a quote</span>
-	</div>
-
-</div>
