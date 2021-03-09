@@ -37,8 +37,8 @@
 		</div>
 		<div id="footer-bottom-container" class="row">
 			
-			<div id="social-media-container" class="col-md-12">
-				<div class="center">
+			<div id="social-media-container" class="col-md-4">
+				<div>
 					
 					<ul>
 						<li>
@@ -56,14 +56,13 @@
 					</ul>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 center">
+			<div class="col-md-8 text-right">
 				
 				<div class="copy-right">Copyright &copy; 1999 - <script>document.write(new Date().getFullYear())</script> Global Relay Communications Inc. All Rights Reserved.</div>
 		
 			</div>
 		</div>
+		
 	</div>
 </div>
 <!-- cookie disclaimer -->
