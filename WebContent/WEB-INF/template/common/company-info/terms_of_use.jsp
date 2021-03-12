@@ -33,6 +33,7 @@
 								    <li role="presentation"><a href="#terms" aria-controls="terms" role="tab" data-toggle="tab">Master Terms of Service</a></li>
 								    <li role="presentation"><a href="#web-terms" aria-controls="web-terms" role="tab" data-toggle="tab">Website Terms of Use</a></li>
 								    <li role="presentation"><a href="#social" aria-controls="social" role="tab" data-toggle="tab">Social Responsibility</a></li>
+								    <li role="presentation"><a href="#end-user-terms" aria-controls="end-user" role="tab" data-toggle="tab">End User Terms</a></li>
 								  </ul>
 								  
 								  <div class="tab-content">
@@ -464,6 +465,11 @@
 											<h4>Questions or Comments</h4>
 											<p>If there are any questions or concerns about these Terms of Use, or if you would like to request permission to use any material on this website, please contact us at legal@globalrelay.net.</p>
 											<p>This document was last revised January 2013</p>
+								  		</div>
+								  	</div>
+								  	<div role="tabpanel" class="tab-pane" id="end-user-terms">
+								  		<div class="description">
+								  			
 								  		</div>
 								  	</div>
 								 </div>
