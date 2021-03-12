@@ -2784,10 +2784,7 @@ div.project-info:after {
 		font-size:20px;
 		font-weight:400;
 		margin-top:10px;
-		display: flex;
-	    align-items: stretch; /* Default */
-	    justify-content: space-between;
-	    width: 100%;
+		
 			
 		>li.active{
 				
@@ -2814,8 +2811,7 @@ div.project-info:after {
 			background: linear-gradient(to bottom,  #f1f2f2 0%,#f0f1f1 9%,#eeeff0 18%,#edeeee 27%,#ebecec 35%,#ecedee 41%,#eaebec 48%,#eaebeb 57%,#e8e9ea 66%,#e7e8e8 74%,#e6e7e8 83%,#e5e6e7 88%,#e2e3e4 100%); /* W3C */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f2f2', endColorstr='#e2e3e4',GradientType=0 ); /* IE6-8 */
 			margin:0 5px 0 0;
-			display: block;
-    		flex: 0 1 auto; /* Default */
+			
 			
 			&.padding-title{
 			

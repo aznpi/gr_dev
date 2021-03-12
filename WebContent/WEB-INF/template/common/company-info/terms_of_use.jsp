@@ -9,6 +9,19 @@
 	<head>
 	<!-- Render the common head tags to include CSS and JS files -->
 		<%@ include file="../../includes/common_head.jsp" %>
+		
+		<style>
+			.terms ul.nav-tabs{
+				display: flex;
+			    align-items: stretch; /* Default */
+			    justify-content: space-between;
+			    width: 100%;
+			}
+			.terms ul.nav-tabs li{
+				display: block;
+    			flex: 0 1 auto; /* Default */
+			}
+		</style>
 	</head>
 	
 	<body>
