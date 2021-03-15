@@ -153,6 +153,7 @@
 									<li><a href="${baseUrl}/solutions/sox"><i class="fa fa-arrow-circle-right"></i>Public Companies</a></li>
 									<li><a href="${baseUrl}/solutions/hipaa"><i class="fa fa-arrow-circle-right"></i>Health Care</a></li>
 									<li><a href="${baseUrl}/solutions/insurance"><i class="fa fa-arrow-circle-right"></i>Insurance</a></li>
+									<li><a href="${baseUrl}/solutions/government"><i class="fa fa-arrow-circle-right"></i>Government</a></li>
 								</ul>
 							</li>
 							<li class="col-sm-4">

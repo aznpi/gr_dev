@@ -22,6 +22,7 @@
 								<div class="hero-content">
 									<h5>MIGRATION TO THE CLOUD</h5>
 									<h1>Migrate your Data to Global Relay's Secure, Unified, and Private Cloud</h1>
+									<button class="btn-2 btn-red" rel="/gr-services/message/gr-message-sign-up">CONTACT A SPECIALIST</button>
 								</div>
 							</div>
 							<div class="col-md-6 hero-image-container">
@@ -68,7 +69,7 @@
 									<h4>Discover the Advantages & Ease of Cloud Migration</h4>
 									<p>Find out cloud archiving’s many advantages over on-premise – and how quick, simple, and easy transitioning to the cloud can be</p>
 								</div>
-								<button onclick="window.location.href='/';" class="btn-2 btn-white-outline" rel="">DOWNLOAD</button>
+								<button onclick="window.open('https://info.globalrelay.com/download-eight-simple-steps-to-migrating-ecomms-data-to-the-cloud');" class="btn-2 btn-white-outline" rel="">DOWNLOAD</button>
 							</div>
 							<div class="col-md-5 bg-image-container">
 								
@@ -131,8 +132,8 @@
 								<div class="content-container">
 									<p class="cat-title">DATA SHEET</p>
 									<p class="bold">Safeguarding eComms & Trade Data</p>
-									<p>Ensure the Security & Integrity of your Data. Find out how Global Relay’s processes and controls ensure the security, integrity, and availability of your archived data.</p>
-									<a href="/">Download ></a>
+									<p>Find out how Global Relay’s processes and controls ensure the security, integrity, and availability of your archived data.</p>
+									<a href="https://info.globalrelay.net/hubfs/PDFs/SafeguardingDataSecurity_2Pager_NA.pdf" target="_blank">Download ></a>
 								</div>
 							</div>
 							<div class="col-md-4 info-box-container">
@@ -142,8 +143,8 @@
 								<div class="content-container">
 									<p class="cat-title">DATA SHEET</p>
 									<p class="bold">Maximizing Compliance & Minimizing Risks</p>
-									<p>Maximize your Compliance, Minimize your Risks. Discover how Global Relay enables you to meet compliance recordkeeping and supervision rules and mitigate risk exposure.</p>
-									<a href="/">Download ></a>
+									<p>Discover how Global Relay enables you to meet compliance recordkeeping and supervision rules and mitigate risk exposure.</p>
+									<a href="https://info.globalrelay.com/hubfs/PDFs/GRArchiveFeatures&Benefits_2Pager_NA_V3.pdf" target="_blank">Download ></a>
 								</div>
 							</div>
 							<div class="col-md-4 info-box-container">
@@ -153,8 +154,8 @@
 								<div class="content-container">
 									<p class="cat-title">DATA SHEET</p>
 									<p class="bold">Extractor for Enterprise Vault<br>&nbsp;</p>
-									<p>Migrate your Veritas Enterprise Vault Data Easily. Learn how EVX simplifies the extraction and migration of your Veritas Enterprise Vault data to Global Relay Archive.</p>
-									<a href="/">Download ></a>
+									<p>Learn how EVX simplifies the extraction and migration of your Veritas Enterprise Vault data to Global Relay Archive.</p>
+									<a href="https://info.globalrelay.com/hubfs/PDFs/GlobalRelay-GREVXFeatures&Benefits-NA-20210224.pdf" target="_blank">Download ></a>
 								</div>
 							</div>
 						</div>

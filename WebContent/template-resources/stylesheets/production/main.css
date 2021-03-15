@@ -20593,11 +20593,11 @@ body.version-2 .migration-cloud #section-reduce .bg-image-container {
 }
 /* line 14009, ../../sass/internal/main.scss */
 body.version-2 .migration-cloud #section-hero .hero-image-container img {
-  width: 900px;
+  width: 840px;
 }
 /* line 14013, ../../sass/internal/main.scss */
 body.version-2 .migration-cloud #section-hero .hero-content-container {
-  min-height: 650px;
+  min-height: 600px;
 }
 @media only screen and (max-width: 812px) {
   /* line 14013, ../../sass/internal/main.scss */
@@ -20607,7 +20607,7 @@ body.version-2 .migration-cloud #section-hero .hero-content-container {
 }
 /* line 14023, ../../sass/internal/main.scss */
 body.version-2 .migration-cloud #section-hero .hero-content-container .hero-content {
-  bottom: 80px;
+  bottom: 50px;
 }
 /* line 14032, ../../sass/internal/main.scss */
 body.version-2 section:not(#section-hero) {

@@ -14007,12 +14007,12 @@ body{
 			#section-hero{
 				.hero-image-container{
 					img{
-						width:900px;
+						width:840px;
 					}
 				}
 				.hero-content-container{
 					
-					min-height:650px;
+					min-height:600px;
 					
 					@media only screen and (max-width: 812px){
 						
@@ -14021,7 +14021,7 @@ body{
 					}
 					
 					.hero-content{
-						bottom:80px;
+						bottom:50px;
 					}
 				}
 				

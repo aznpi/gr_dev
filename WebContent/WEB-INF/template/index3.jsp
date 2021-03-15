@@ -22,7 +22,7 @@
 								<div class="hero-content">
 									<img src="${baseUrl}/template-resources/images/internal/logos/logo_Message_logo_CMYK.png" class="img-title"  width="240px" alt="Global Relay Message"/>
 									<h1>Collaborate remotely and compliantly</h1>
-									<button class="btn-2 btn-red" rel="/gr-services/archive">LEARN MORE</button>
+									<button class="btn-2 btn-red" rel="/gr-services/message/text">LEARN MORE</button>
 								</div>
 							</div>
 							<div class="col-md-7 hero-image-container">
@@ -37,7 +37,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<h4>Trusted by thousands of organisations</h4>
+								<h4>Trusted by thousands of organizations</h4>
 								<ul>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Blackrock.png" alt="BlackRock"> </li>
 									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Ares.png" alt="Ares"> </li>
