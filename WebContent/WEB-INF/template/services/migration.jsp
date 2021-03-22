@@ -22,7 +22,7 @@
 								<div class="hero-content">
 									<h5>MIGRATION TO THE CLOUD</h5>
 									<h1>Migrate your Data to Global Relay's Secure, Unified, and Private Cloud</h1>
-									<button class="btn-2 btn-red" rel="/gr-services/message/gr-message-sign-up">CONTACT A SPECIALIST</button>
+									<button class="btn-2 btn-red" rel="https://info.globalrelay.com/contact-a-specialist">CONTACT A SPECIALIST</button>
 								</div>
 							</div>
 							<div class="col-md-6 hero-image-container">
