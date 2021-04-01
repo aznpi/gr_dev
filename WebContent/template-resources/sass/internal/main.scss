@@ -44,6 +44,7 @@ Date: October 16,2014
 	v2.1 - Top Navigation
 	v2.2 - Footer Container
 	v2.3 - Content
+	v2.4 - Bar Animation
 */
 
 
@@ -14038,7 +14039,7 @@ body{
 				}
 			}
 			&.bg-gray{
-				background-color:#F5F5F5;
+				background-color:#FCFCFC;
 			}
 			&.bg-teal{
 				background-color: #3DAEBE;
@@ -14140,10 +14141,14 @@ body{
 				ul{
 					display: flex;
 				    align-items: center; /* Default */
-					padding:0;
+					padding:0 50px;
 				    justify-content: space-between;
 				    width: 100%;
 					margin-bottom:0;
+					@media only screen and (max-width: 812px) {		
+						padding:0 10px;
+					}
+					
 					
 					@media only screen and (max-width: 600px) {
 						display: block;
@@ -14154,6 +14159,12 @@ body{
 						flex: 0 1 auto; /* Default */
     					list-style-type: none;
 						margin-bottom:0;
+						width:33.33%;
+						padding:0 50px;
+						@media only screen and (max-width: 812px) {		
+							width:100%;
+							padding:0 10px;
+						}
 						
 						@media only screen and (max-width: 600px) {
 							margin-bottom: 15px;
@@ -14239,4 +14250,47 @@ body{
 			
 		}
 	}
+}
+
+/* v2.4 - Bar Animation */
+
+$bar-height: 20px;
+
+.bar-wrap,
+.bar::before {
+  border-radius: $bar-height / 2;
+}
+
+.bar-wrap {
+  height: $bar-height;
+  background:#EDEDED;
+	width: 70%;
+    margin: 10px auto 20px;
+
+  &:not(:first-child) {
+    margin-top: 1em;
+  }
+}
+
+.bar {
+  &,
+  &::before {
+    height: 100%;
+  }
+  
+  &::before {
+    content: '';
+    display: block;
+    background: #DBDCDB;
+    animation: bar 2s;
+  }
+}
+
+@keyframes bar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }

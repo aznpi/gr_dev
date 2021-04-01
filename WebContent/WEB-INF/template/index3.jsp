@@ -38,17 +38,31 @@
 						<div class="row">
 							<div class="col-md-12">
 								<h4>Trusted by thousands of organizations</h4>
-								<ul>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Blackrock.png" alt="BlackRock"> </li>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Ares.png" alt="Ares"> </li>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_MUFG.png" alt="MUFG"> </li>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Refinitiv.png" alt="Refinitiv"> </li>
-									<li><img src="${baseUrl}/template-resources/images/internal/logos/logo_Prudential.png" alt="Prudential"> </li>
+								<ul class="chart">
+									<li>
+										<div class="bar-wrap">
+									    	<div class="bar" style="width:88%;"></div>
+									  	</div>
+									  	<p><span class="bold">22</span> OF THE TOP 25 GLOBAL BANKS</p>
+									</li>
+									<li>
+										<div class="bar-wrap">
+									    	<div class="bar" style="width:70%;"></div>
+									  	</div>
+									  	<p><span class="bold">+70%</span> OF FINRA BROKER DEALERS</p>
+									</li>
+									<li>
+										<div class="bar-wrap">
+									    	<div class="bar" style="width:70%;"></div>
+									  	</div>
+									  	<p><span class="bold">70%</span> OF U.S. HEDGE FUNDS</p>
+									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</section>
+				
 				<section class="home-panel center" id="section-cloud">
 					<div class="container">
 						<div class="row">
