@@ -325,9 +325,9 @@
 								<p>Global Relay’s data migration tools and services facilitate transitioning from legacy platforms to Global Relay Archive</p>
 								<button onclick="window.location.href='/';" class="btn-2 btn-red-outline" rel="">LEARN MORE</button>
 								<div class="description-container">
-									<span class="bold">Global Relay Extractor for Enterprise Vault</span>
-									<p>Natively extracts on-premise Veritas Enterprise Vault data and migrates it to Global Relay Archive</p>
-									<a href="" class="red-pointer">Download Datasheet ></a>
+									<span class="bold">Global Relay Extractor for EV</span>
+									<p>Natively extracts on-premise Veritas Enterprise Vault<sup>&trade;</sup> data and migrates it to Global Relay Archive</p>
+									<a href="https://info.globalrelay.com/hubfs/PDFs/20210318_GRXFeatures&Benefits_NA.pdf" class="red-pointer">Download Datasheet ></a>
 								</div>
 								<div class="description-container">
 									<span class="bold">Data Import</span>

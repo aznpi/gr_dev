@@ -49,7 +49,7 @@
 										<div class="bar-wrap">
 									    	<div class="bar" style="width:70%;"></div>
 									  	</div>
-									  	<p><span class="bold">+70%</span> OF FINRA BROKER DEALERS</p>
+									  	<p><span class="bold">+70%</span> OF FINRA BROKER-DEALERS</p>
 									</li>
 									<li>
 										<div class="bar-wrap">
