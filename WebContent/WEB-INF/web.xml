@@ -365,6 +365,24 @@
   	<servlet-name>message</servlet-name>
   	<url-pattern>/services/message</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>government</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/government.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>government</servlet-name>
+  	<url-pattern>/solutions/government</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+  	<servlet-name>migration</servlet-name>
+  	<jsp-file>/WEB-INF/template/services/migration.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>migration</servlet-name>
+  	<url-pattern>/services/migration</url-pattern>
+  </servlet-mapping>
   
   <servlet>
   	<servlet-name>archive</servlet-name>
