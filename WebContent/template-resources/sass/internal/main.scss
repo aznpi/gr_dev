@@ -7649,6 +7649,11 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	@include main-leader-image('img_leadership_team_Lorenzo_Costantino.jpg');
 	
 }
+#img-dany{
+	
+	@include main-leader-image('img_leadership_team_Dany_Pierbon.jpeg');
+	
+}
 #img-jerry{
 	
 	@include main-leader-image('img_leadership_team_Jerry_Gill.jpg');
